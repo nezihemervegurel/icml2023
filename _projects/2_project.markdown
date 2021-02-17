@@ -18,7 +18,7 @@ We already developed a paper about Machine Learning for Health Audit in this wor
 
 Friday, 2:00 PM
 
-Asynchronous usiing Discord channels.
+Asynchronous using Discord channels.
 
 **Contact**
 Luis Oala

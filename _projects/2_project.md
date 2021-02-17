@@ -8,7 +8,6 @@ importance: 2
 
 **Overview**
 
-{: style="text-align: justify"}
 Since 2020, Measures & Metrics workstream has a research about regulatory aspects inside of Machine Learning for Health. We study a collection of SOTA ML quality assurance methods like bias, generalizations, robustness, uncertainty, and so forth about use cases and regulatory topics.
 
 Today, our multidisciplinary team has students and professionals from different companies, laboratories, universities worldwide focusing on creating regulatory documents and providing better solutions to society.

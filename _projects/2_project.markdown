@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Measures & Metrics
-description: a project with a background image
+description: M&M Workstreams with description.
 img: /assets/img/m&m.jpg
 importance: 2
 ---
 
 **Overview**
 
+{: style="text-align: justify"}
 Since 2020, Measures & Metrics workstream has a research about regulatory aspects inside of Machine Learning for Health. We study a collection of SOTA ML quality assurance methods like bias, generalizations, robustness, uncertainty, and so forth about use cases and regulatory topics.
 
 Today, our multidisciplinary team has students and professionals from different companies, laboratories, universities worldwide focusing on creating regulatory documents and providing better solutions to society.
@@ -21,6 +22,7 @@ Friday, 2:00 PM
 Asynchronous usiing Discord channels.
 
 **Contact**
+
 Luis Oala
 
 Pat Baird
@@ -28,7 +30,8 @@ Pat Baird
 **Results**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/luis.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/luis.jpg' | relative_url }}" alt="" title="Presentation of paper ML4H Auditing: From paper to practice at the Conference on Neural Information Processing System, December 2020"
+"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>

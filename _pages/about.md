@@ -47,7 +47,7 @@ Groups and Institutions
 
 License
 -------
-The content of this website is published under the Creative Commons Attribution 4.0 International License.
+The content of this website is published under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 Short teaser text with the different areas of the menu being introduced (see miro)
 

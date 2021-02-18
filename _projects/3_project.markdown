@@ -1,38 +1,76 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: assessment_platform
+description: description about AP, EP & RP
 img: /assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ap_logo.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+**Overview**
+
+Assessment Platform(AP) is an international initiative to create an open source to promote health analysis. This Open Code Project aims to produce the digital building blocks (six software packages) that compose the FG-AI4H Assessment Platform. The assessment platform, which can be distinguished from AI “challenge” platforms through its consideration of regulatory guidelines and the needs of other AI for health stakeholders, supports the end-to-end assessment of AI for health algorithms under the coordination of Marc Lecoultre.
+
+AI Audit is contributing with two software packages of the AP: Evaluation and Reporting.
+
+_______________________________________________________
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ep_logo.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+
+**Evaluation Package**
+
+**Description and Purpose**
+
+Model performance is dependent on the choice of metric and possible parameters. Thus, it is of utmost importance to have a framework that allows for the comparison of the performance of different AI models. EP provides meaningful, state-of-the-art metrics that promise high expressibility.
+
+**Functionalities**
+Offers testing measures and methods for different quality dimensions including interpretation, bias, uncertainty, and robustness; questionnaires provide qualitative evaluation
+
+**Target Groups**
+Manufacturers, notified regulatory bodies.
+
+**Schedule**
+* Tuesday, 4:00 PM
+* Asynchronous (Discord Server)
+**Contact**
+* Elora Schöerverth
+* Alixanro Werneck
+
+_______________________________________________________
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/rp_logo.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+
+**Reporting Package**
+RP delivers a standardized format for communicating and reporting the properties, features, intended use, and limitations of AI for health to help connect different stakeholders.
+
+**Functionalities**
+A customizable reporting interface that presents the results of EP.
+
+**Target Groups**
+Manufacturers, notified regulatory bodies, users of AI for health (doctors, patients), and vendors of AI for health.
+
+**Schedule**
+* Tuesday, 4:00 PM
+* Asynchronous (Discord Server)
+
+**Contact**
+* Pradeep Balachandran
+* Alixanro Werneck
+
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

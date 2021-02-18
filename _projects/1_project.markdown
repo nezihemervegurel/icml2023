@@ -13,4 +13,5 @@ This project aims at the development of good machine learning practice guideline
 Aims and Obectives
 ------------------
 –	To help manufacturers familiarize with international laws and regulations that applies to AI/ML-based medical devices and to bring them to market quickly and effectively.
+
 –	To help internal and external auditors test the legal conformity of AI/ML-based medical devices and the associated life-cycle process

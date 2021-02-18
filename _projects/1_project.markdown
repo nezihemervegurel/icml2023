@@ -6,23 +6,24 @@ img: /assets/img/Reg_GP.jpg
 importance: 1
 ---
 
-Scope
------
+**Project Scope**
+
 This project aims at the development of good machine learning practice guidelines to educate the developers and manufacturers of healthcare AI solutions on how to conduct a comprehensive requirements analysis and conformity assessment procedures for continual product improvement in an iterative and adaptive manner in conformance with the applicable standards and regulations.
 
-Aims and Obectives
-------------------
+**Aims and Obectives**
+
 –	To help manufacturers familiarize with international laws and regulations that applies to AI/ML-based medical devices and to bring them to market quickly and effectively.
 
 –	To help internal and external auditors test the legal conformity of AI/ML-based medical devices and the associated life-cycle process
 
-Meeting Schedule
-----------------
+**Meeting Schedule**
+
 Bi-weekly meeting on Tuesday at 2.00 PM CET
 
-Meeting Room
--------------
+**Meeting Room**
+
 Zoom link : 
 
-Contact
---------
+**Contact**
+info@aiaudit.org
+

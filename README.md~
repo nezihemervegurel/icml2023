@@ -32,8 +32,8 @@ Steps
 
 ...future scenario 2
 1. automated script ()upon new commit)
-  1. sshes into webserver 
-  1. git pull
+   1. sshes into webserver 
+   1. git pull
 
 ...future scenario 3
 1. automated script (upon commit)

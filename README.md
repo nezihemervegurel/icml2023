@@ -37,11 +37,11 @@ Steps
 
 ...future scenario 3
 1. automated script (upon commit)
-  1. bundle exec jekyll build
-  1. git add .
-  1. git commit 
-  1. sshes into webserver
-  1. git pull upon new commit in github
+   1. bundle exec jekyll build
+   1. git add .
+   1. git commit 
+   1. sshes into webserver
+   1. git pull upon new commit in github
 
 
 # Adding content

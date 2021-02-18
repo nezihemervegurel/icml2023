@@ -2,7 +2,7 @@
 layout: page
 title: ML4H Regulatory Good practices
 description: A set of good machine learning practice guidelines intended to educate the developers and manufacturers of healthcare AI solutions to ensure regulatory compliance for the AI based Medical Devices 
-img: /assets/img/Reg_GP.jpg
+img: /assets/img/Reg_GP.png
 importance: 1
 ---
 

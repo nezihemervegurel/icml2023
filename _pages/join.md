@@ -1,9 +1,9 @@
 ---
 layout: page
-title: collaboration
-permalink: /collaboration/
+title: join
+permalink: /join/
 nav: true
-nav-order: c
+nav-order: d
 
 ---
 

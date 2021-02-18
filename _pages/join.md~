@@ -1,15 +1,9 @@
 ---
-layout: post
-title: Artificial Intelligence Audit Workstreams
-lang: en
-header-img: ""
-date: 2021/02/16
-tags:
-  - AI
-  - Health
-  - Workstreams
-author: "aiaudit"
-comments: true
+layout: page
+title: join
+permalink: /join/
+nav: true
+nav-order: c
 
 ---
 

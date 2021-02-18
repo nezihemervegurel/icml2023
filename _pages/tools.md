@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: tools
+permalink: /tools/
 description: A growing collection of your cool projects.
 nav: true
-nav-order: c
+nav-order: a
 ---
 
 <div class="projects grid">

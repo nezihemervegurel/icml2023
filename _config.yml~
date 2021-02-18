@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: aiaudit.org
+title: aiaudit.org # the website title (if blank, full name will be used instead)
+first_name: aiaudit
 middle_name:
-last_name: 
+last_name: .org
 email: info@aiaudit.org
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -16,7 +16,7 @@ footer_text: >
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: /aiaudit # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------

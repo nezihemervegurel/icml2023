@@ -2,20 +2,20 @@
 layout: page
 title: assessment_platform
 description: description about AP, EP & RP
-img: /assets/img/7.jpg
+img: /assets/img/ap_logo.png
 importance: 3
 ---
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ap_logo.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ap_logo.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 
 **Overview**
 
-Assessment Platform(AP) is an international initiative to create an open source to promote health analysis. This Open Code Project aims to produce the digital building blocks (six software packages) that compose the FG-AI4H Assessment Platform. The assessment platform, which can be distinguished from AI “challenge” platforms through its consideration of regulatory guidelines and the needs of other AI for health stakeholders, supports the end-to-end assessment of AI for health algorithms under the coordination of Marc Lecoultre.
+Assessment Platform(AP) is an international initiative to create an open-source to promote health analysis. This Open Code Project aims to produce the digital building blocks (six software packages) that compose the FG-AI4H Assessment Platform. The assessment platform, which distinguishes it from AI "challenge" platforms through its consideration of regulatory guidelines and the needs of other AI for health stakeholders, supports the end-to-end assessment of AI for health algorithms under Marc Lecoultre's coordination.
 
 AI Audit is contributing with two software packages of the AP: Evaluation and Reporting.
 
@@ -23,7 +23,7 @@ _______________________________________________________
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ep_logo.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ep_logo.png' | relative_url }}" alt="" title=""/>
     </div>
 </div>
 
@@ -31,13 +31,13 @@ _______________________________________________________
 
 **Description and Purpose**
 
-Model performance is dependent on the choice of metric and possible parameters. Thus, it is of utmost importance to have a framework that allows for the comparison of the performance of different AI models. EP provides meaningful, state-of-the-art metrics that promise high expressibility.
+Model performance is dependent on the choice of metric and possible parameters. Thus, it is of utmost importance to have a framework that allows for comparing the performance of different AI models. EP provides meaningful, state-of-the-art metrics that promise high expressibility.
 
 **Functionalities**
-Offers testing measures and methods for different quality dimensions including interpretation, bias, uncertainty, and robustness; questionnaires provide qualitative evaluation
+Offers testing measures and methods for different quality dimensions, including interpretation, bias, uncertainty, and robustness; questionnaires provide a qualitative evaluation
 
 **Target Groups**
-Manufacturers, notified regulatory bodies.
+Manufacturers notified regulatory bodies.
 
 **Schedule**
 * Tuesday, 4:00 PM
@@ -51,7 +51,7 @@ _______________________________________________________
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/rp_logo.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/rp_logo.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 
@@ -62,7 +62,7 @@ RP delivers a standardized format for communicating and reporting the properties
 A customizable reporting interface that presents the results of EP.
 
 **Target Groups**
-Manufacturers, notified regulatory bodies, users of AI for health (doctors, patients), and vendors of AI for health.
+Manufacturers, notified regulatory bodies, AI users for health (doctors, patients), and vendors of AI for health.
 
 **Schedule**
 * Tuesday, 4:00 PM

@@ -14,7 +14,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 Context
 --------
-aiaudit.org is a collaborative research network formed under the auspices of the Data and AI Solutions Assessment Methods (DAISAM) WG, which is one of the core working groups under the ITU/WHO Focus Group on “AI  for Health” (FG-AI4H) . The Focus Group which was established in July 2018 works in partnership with the World Health Organization (WHO) to establish a standardized assessment framework for the evaluation of AI-based methods for health with primary focus on quality of care and patient safety. 
+aiaudit.org is a collaborative research network formed under the auspices of the Data and AI Solutions Assessment Methods (DAISAM) WG, which is one of the core working groups under the ITU/WHO Focus Group on “AI  for Health” ([FG-AI4H](https://www.itu.int/en/ITU-T/focusgroups/ai4h/Pages/default.aspx)) . The Focus Group which was established in July 2018 works in partnership with the World Health Organization (WHO) to establish a standardized assessment framework for the evaluation of AI-based methods for health with primary focus on quality of care and patient safety. 
 aiaudit.org network brings in the expertise and experience of a global multidisciplinary group of stakeholders that include machine learning/AI researchers, data scientists, clinical specialists, healthcare practitioners and researchers, medical device manufactures and consultants, regulators, software developers, and individuals from allied and complementary fields.
 
 Vision

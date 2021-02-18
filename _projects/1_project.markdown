@@ -19,3 +19,10 @@ Aims and Obectives
 Meeting Schedule
 ----------------
 Bi-weekly meeting on Tuesday at 2.00 PM CET
+
+Meeting Room
+-------------
+Zoom link : 
+
+Contact
+--------

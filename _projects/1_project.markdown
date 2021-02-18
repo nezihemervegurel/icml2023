@@ -24,6 +24,6 @@ Bi-weekly meeting on Tuesday at 2.00 PM CET
 
 Zoom link : 
 
-**Contact**
-info@aiaudit.org
+**How to join this project**
+
 

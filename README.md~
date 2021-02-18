@@ -18,12 +18,13 @@ Steps
 1. Edit content in markdown (see categories below)
 1. Save
 1. bundle exec jekyll build
-1. Commit changes
+1. git add .
+1. git commit -m "..."
 1. git push
 
 ...current scenario
-1. 
-
+1. login to ftp
+1. transfer _site folder content
 
 ...future scenario 1
 1. ssh into webserver
@@ -43,8 +44,6 @@ Steps
   1. git pull upon new commit in github
 
 
-
-
 # Adding content
 
 ## Pages
@@ -56,6 +55,16 @@ Steps
 ## News
 
 ## Publications
+
+# Housekeeping
+
+## Everyone
+
+###
+
+## Project drivers
+
+## Contributors
 
 
 ### Installation

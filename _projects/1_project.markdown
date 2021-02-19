@@ -63,7 +63,6 @@ This project aims at the development of good machine learning practice guideline
      
     
    **5.5 Live document link**
-   
-    [AI4H DEL 2.2 Regulatory Goof Practices ](https://extranet.itu.int/sites/itu-t/focusgroups/ai4h/_layouts/15/WopiFrame.aspx?sourcedoc=%7B828882B2-4941-452C-8A61-F4DDE5802C2A%7D&file=FGAI4H-K-039.docx&action=default&CT=1613737029587&OR=DocLibClassicUI)
+   Link:[AI4H DEL 2.2 Regulatory Goof Practices ](https://extranet.itu.int/sites/itu-t/focusgroups/ai4h/_layouts/15/WopiFrame.aspx?sourcedoc=%7B828882B2-4941-452C-8A61-F4DDE5802C2A%7D&file=FGAI4H-K-039.docx&action=default&CT=1613737029587&OR=DocLibClassicUI)
    
      

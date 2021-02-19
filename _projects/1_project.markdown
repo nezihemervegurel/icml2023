@@ -28,14 +28,16 @@ b) Product scope
   –	software is the product ->standalone software –Software-as-medical device (SaMD)
   –	software is embedded in the product- Software-in-medical device (SiMD)
 
-**Meeting Schedule**
+**How to participate in this project**
 
-Bi-weekly meeting on Tuesday at 2.00 PM CET
+ ** 1. Meeting Schedule**
 
-**Meeting Room**
+      Bi-weekly meeting on Tuesday at 2.00 PM CET
 
-Zoom link : 
+  ** 2. Meeting Room**
 
-**How to join this project**
+      Zoom link : 
+
+
 
 

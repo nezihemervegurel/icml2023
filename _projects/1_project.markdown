@@ -19,6 +19,7 @@ This project aims at the development of good machine learning practice guideline
 –	To help internal and external auditors test the legal conformity of AI/ML-based medical devices and the associated life-cycle process
 
 **Regulatory Scope**
+
   a) Medical device:
     –	with enforcement of regulations
     –	without enforcement of regulations.

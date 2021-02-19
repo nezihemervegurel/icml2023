@@ -30,14 +30,28 @@ b) Product scope
 
 **How to participate in this project**
 
- **1. Meeting Schedule**
+  **1. Mailing List**
+  
+  **2. Contact Email**
+  
+        Christian Johner / Pradeep Balachandran
+        
+  **3. Meeting Schedule**
 
       Bi-weekly meeting on Tuesday at 2.00 PM CET
 
-  **2. Meeting Room**
+  **4. Meeting Room**
 
       Zoom link : 
+  
+**Project Resources**
 
+  **1. Repo link**
+  
+  **2. Miro link**
+  
+  **3. Kanban / Task link**
+               
+  **4. Associated publications**
 
-
-
+  **4. Live document link**

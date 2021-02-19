@@ -1,33 +1,38 @@
 ---
 layout: page
-title: ML4H Regulatory Good practices
-description: A set of good machine learning practice guidelines intended to educate the developers and manufacturers of healthcare AI solutions to ensure regulatory compliance for the AI based Medical Devices 
-img: /assets/img/Reg_GP.png
-contact: Christian Johner / Pradeep Balachandran
-coordinates: Meeting Time -Tuesday(bi-weekly) at 2.00 PM CET Meeting Link-Zoom Link
+title: TODO (add title for project here)
+description: TODO (write a short project description, 1 or 2 sentences) 
+img: /assets/img/Reg_GP.png TODO add img for project to /assets/img/ folder and then link to it as in example shown
+contact: TODO (add the contact email and names of coordinators)
+coordinates: TODO add meeting times in format (day, frequency, time, time zone)
 importance: 1
 ---
 
 # Project Scope
-This project aims at the development of good machine learning practice guidelines to educate the developers and manufacturers of healthcare AI solutions on how to conduct a comprehensive requirements analysis and conformity assessment procedures for continual product improvement in an iterative and adaptive manner in conformance with the applicable standards and regulations.
+TODO add planned project duration
+TODO Write a bit more detailed project description
 
-# Aims and Objectives
-–	To help manufacturers familiarize with international laws and regulations that applies to AI/ML-based medical devices and to bring them to market quickly and effectively.
+## Aims and Objectives
+TODO 
+* A short list
+* With aims and objectives
 
-–	To help internal and external auditors test the legal conformity of AI/ML-based medical devices and the associated life-cycle process
+## Planned Outputs
+TODO
+* A short list
+* With outputs
 
 # Get in touch
-
 * Contact Email: TODO
 * Mailing List: TODO
 * Chat: TODO (post invite or link to slack or discord here)
-
-## Mailing List
-
-## Chat
-discord or slack
+* Github project: TODO how to join
 
 # Resources
+* Project board: TODO put link here
+* Project repo: TODO put link here
+* Whiteboard: TODO put miro link here+
+
 # Regulator
 **3. Regulatory Scope**
 

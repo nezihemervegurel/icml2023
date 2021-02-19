@@ -4,7 +4,7 @@ title: ML4H Regulatory Good practices
 description: A set of good machine learning practice guidelines intended to educate the developers and manufacturers of healthcare AI solutions to ensure regulatory compliance for the AI based Medical Devices 
 img: /assets/img/Reg_GP.png
 Contact:Christian Johner / Pradeep Balachandran
-Coordinates: Meeting Time -Bi-weekly meeting on Tuesday at 2.00 PM CET
+Coordinates: Meeting Time -Tuesday(bi-weekly) at 2.00 PM CET, Meeting Link-Zoom Link
 importance: 1
 ---
 

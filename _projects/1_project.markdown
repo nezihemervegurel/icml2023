@@ -18,6 +18,15 @@ This project aims at the development of good machine learning practice guideline
 
 –	To help internal and external auditors test the legal conformity of AI/ML-based medical devices and the associated life-cycle process
 
+**Regulatory Scope**
+  a) Medical device:
+    –	with enforcement of regulations
+    –	without enforcement of regulations.
+
+b) Product scope
+  –	software is the product ->standalone software –Software-as-medical device (SaMD)
+  –	software is embedded in the product- Software-in-medical device (SiMD)
+
 **Meeting Schedule**
 
 Bi-weekly meeting on Tuesday at 2.00 PM CET

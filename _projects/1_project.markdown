@@ -46,12 +46,12 @@ This project aims at the development of good machine learning practice guideline
   
 **5. Project Resources**
 
-  **5.1 Repo link**
+   **5.1 Repo link**
   
-  **5.2 Miro link**
+   **5.2 Miro link**
   
-  **5.3 Kanban / Task link**
+   **5.3 Kanban / Task link**
                
-  **5.4 Associated publications**
+   **5.4 Associated publications**
 
-  **5.5 Live document link**
+   **5.5 Live document link**

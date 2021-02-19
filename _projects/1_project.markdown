@@ -30,11 +30,11 @@ b) Product scope
 
 **How to participate in this project**
 
- ** 1. Meeting Schedule**
+ **1. Meeting Schedule**
 
       Bi-weekly meeting on Tuesday at 2.00 PM CET
 
-  ** 2. Meeting Room**
+  **2. Meeting Room**
 
       Zoom link : 
 

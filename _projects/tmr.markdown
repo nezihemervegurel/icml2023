@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Transparent model reporting (Research)
-description: Transparent model reporting is research about one of the most critical topics about Machine Learning and Health: **transparency**.
+description: Transparent model reporting is research about one of the most critical topics about Machine Learning and Health: transparency.
 img: /assets/img/tmr.png
 contact: Jana Fehr(jana@aiaudit.org)
 coordinates: Every Thursday, 2:00 PM, Geneva Time

@@ -5,7 +5,7 @@ description: Transparent model reporting is research about one of the most criti
 img: /assets/img/tmr.png
 contact: Jana Fehr(jana@aiaudit.org)
 coordinates: Every Thursday, 2:00 PM, Geneva Time
-importance: 3
+importance: 4
 ---
 
 <div class="row">

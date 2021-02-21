@@ -1,18 +1,20 @@
 ---
 layout: page
 title: Transparent model reporting (Research)
-description: TMR Project and Description
-img:
+description: Transparent model reporting is research about one of the most critical topics about Machine Learning and Health: **transparency**.
+img: /assets/img/tmr.png
+contact: Jana Fehr(jana@aiaudit.org)
+coordinates: Every Thursday, 2:00 PM, Geneva Time
 importance: 3
 ---
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ap_logo.jpg' | relative_url }}" alt="" title=""/>
     </div>
 </div>
 
-**Overview**
-
+# Project Scope
 Transparent model reporting is research about one of the most critical topics about Machine Learning and Health: **transparency**. When a researcher, laboratory, or company discovers a new technology or method to evaluate one topic, there is a standard behavior not to publish data or the codes, preserving as a secret object to the owner.
 
 AI Audit doesn't have the objective to publish somebody's codes or data but creates trustworthiness between the users and providers. A study on the practice of transparent model reporting.
@@ -21,20 +23,22 @@ If you have a use case, feel free to submit us and receive an AI Audit analysis 
 
 Send an e-mail to [tmr.daisam.fgai4h@aiaudit.org].
 
-**Functionalities**
-Create a discussion about transparency and trustworthiness between the users and developers by a scientific publications, seminars & webinars.
+## Aims and Objectives
+Create a discussion about transparency and trustworthiness between the users and developers
+Promotes more transparency between companies and users.
 
-**Target Groups**
-Manufacturers, academics, health users notified regulatory bodies.
+## Planned Outputs
+* Paper and regulatory documents to manufacturers, academics, health users notified regulatory bodies.
+* Scientific publications, seminars & webinars.
 
-**Schedule**
-* Thursday, 2:00 PM
-* Asynchronous (Discord Server)
+# Get in touch
+* Contact Email: Jana Fehr (jana@aiaudit.org)
+* Mailing List: TODO
+* Chat: You will receive a Discord Server link to join us.
+* Github project: You will receive a Github project invitation link to be part of this workstream.
 
-**Contact**
-* Jana Fehr
+# Advertisement
 
-**Advertisement**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/flyer_tmr.png' | relative_url }}" alt="" title="example image"/>

@@ -20,11 +20,11 @@ This project aims at the development of good machine learning practice guideline
 
 * Regulatory requirements guidelines document that covers the technical , functional, safety & efficacy aspects of the entire product life cycle of AI/ML based medical devices. The scope AI/ML based medical devices include the following:
 
-  **(a) regulated and non-regulated medical devices, (b) medical devices with or without enforcement of regulations
+  ** (a) regulated and non-regulated medical devices, (b) medical devices with or without enforcement of regulations
 
-  **(a) Software-as-a-Medical Device (SaMD), (b) Software-in-a-Medical Device (SiMD) and (c) healthcare applications intended to improve medical       outcomes or efficiency of healthcare system
+  ** (a) Software-as-a-Medical Device (SaMD), (b) Software-in-a-Medical Device (SiMD) and (c) healthcare applications intended to improve medical       outcomes or efficiency of healthcare system
 
-  **both (a) Static AI model-based systems(b) Continuous/Incremental learning AI/ML model-based systems
+  ** both (a) Static AI model-based systems(b) Continuous/Incremental learning AI/ML model-based systems
 
 
 # Get in touch

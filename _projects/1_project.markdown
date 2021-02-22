@@ -12,12 +12,12 @@ importance: 1
 This project aims at the development of good machine learning practice guidelines to educate the developers and manufacturers of healthcare AI solutions on how to conduct a comprehensive requirements analysis and conformity assessment procedures for continual product improvement in an iterative and adaptive manner in conformance with the applicable standards and regulations.
 
 ## Aims and Objectives
-–	To help manufacturers familiarize with international laws and regulations that applies to AI/ML-based medical devices and to bring them to market quickly and effectively.
+* To help manufacturers familiarize with international laws and regulations that applies to AI/ML-based medical devices and to bring them to market quickly and effectively.
 
-–	To help internal and external auditors test the legal conformity of AI/ML-based medical devices and the associated life-cycle process
+* To help internal and external auditors test the legal conformity of AI/ML-based medical devices and the associated life-cycle process
 
 ## Planned Outputs
-TODO
+
 * Regulatory requirements guidelines document that covers the technical , functional, safety & efficacy aspects of the entire product life cycle of AI/ML based medical devices. The scope AI/ML based medical devices include the following:
 
   –(a) regulated and non-regulated medical devices, (b) medical devices with or without enforcement of regulations

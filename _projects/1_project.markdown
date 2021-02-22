@@ -3,7 +3,7 @@ layout: page
 title: ML4H Regulatory Good practices
 description: A set of good machine learning practice guidelines intended to educate the developers and manufacturers of healthcare AI solutions to ensure regulatory compliance for the AI based Medical Devices 
 img: /assets/img/Reg_GP.png
-contact: Christian Johner / Pradeep Balachandran
+contact: Christian Johner (christian.johner@johner-institut.de)<br>Pradeep Balachandran (pradeep@aiaudit.org)
 coordinates: Meeting Time -Tuesday(bi-weekly) at 2.00 PM CET Meeting Link-Zoom Link
 importance: 1
 ---

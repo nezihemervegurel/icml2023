@@ -3,7 +3,7 @@ layout: page
 title: ML4H Regulatory Good practices
 description: A set of good machine learning practice guidelines intended to educate the developers and manufacturers of healthcare AI solutions to ensure regulatory compliance for the AI based Medical Devices 
 img: /assets/img/Reg_GP.png
-contact: Christian Johner (christian.johner@johner-institut.de) or Pradeep Balachandran (pradeep@aiaudit.org)
+contact: Christian Johner (christian.johner@johner-institut.de) / Pradeep Balachandran (pradeep@aiaudit.org)
 coordinates: Meeting Time -Tuesday (bi-weekly) at 2.00 PM CET
 importance: 1
 ---
@@ -30,7 +30,7 @@ This project aims at the development of good machine learning practice guideline
 
 
 # Get in touch
-* Contact Email: Christian Johner (christian.johner@johner-institut.de) or Pradeep Balachandran (pradeep@aiaudit.org)
+* Contact Email: Christian Johner (christian.johner@johner-institut.de) / Pradeep Balachandran (pradeep@aiaudit.org)
 * Mailing List: TODO
 * Chat: TODO (post invite or link to slack or discord here)
 * Github project: TODO how to join

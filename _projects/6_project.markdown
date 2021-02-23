@@ -8,20 +8,31 @@ coordinates: Meeting Time -Tuesday (bi-weekly) at 2.00 PM CET
 importance: 1
 ---
 
-**Project Scope**
+# Project Scope
+This project aims at the 
+
+## Aims and Objectives
+* 
+
+* 
+
+## Planned Outputs
+
+* 
 
 
+# Get in touch
+* Contact Email: Christian Johner (christian.johner@johner-institut.de) or Pradeep Balachandran (pradeep@aiaudit.org)
+* Mailing List: TODO
+* Chat: TODO (post invite or link to slack or discord here)
+* Github project: TODO how to join
 
-**Aims and Obectives**
+# Resources
+* Project board: TODO put link here
+* Project repo: TODO put link here
+* Whiteboard: TODO put miro link here
+* Live document: 
 
-
-
-**Meeting Schedule**
-
-Bi-weekly meeting on Tuesday at 2.00 PM CET
-
-**Meeting Room**
-
-Zoom link : 
-
-**How to join this project**
+## Related publications
+TODO add bib items to https://github.com/aiaudit-org/website/blob/master/_bibliography/papers.bib
+TODO add jekyll scholar info

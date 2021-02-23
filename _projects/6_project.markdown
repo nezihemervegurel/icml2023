@@ -1,7 +1,7 @@
 ---
 layout: page
-title: IMDRF-ICD 10
-description: A unified modelling approach for semantic mapping of IMDRF-ICD 10 systems
+title: Process and Content Management System for maintaining ML4H regulatory guidelines and checklists
+description: A unified modelling approach to address the problem of conceptual mapping and semantic interoperability of product requirements of AI/ML based medical devices among various stakeholders including software deveopers, quality managers,medical professionals and notified bodies.
 img: /assets/img/IMDRF-ICD.png
 importance: 1
 ---

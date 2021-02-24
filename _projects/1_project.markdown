@@ -39,7 +39,7 @@ This project aims at the development of good machine learning practice guideline
 * Project board: https://github.com/orgs/aiaudit-org/projects/7
 * Project repo: TODO put link here
 * Whiteboard: TODO put miro link here
-* Live document: [AI4H DEL 2.2 Regulatory Goof Practices ](https://extranet.itu.int/sites/itu-t/focusgroups/ai4h/_layouts/15/WopiFrame.aspx?sourcedoc=%7B828882B2-4941-452C-8A61-F4DDE5802C2A%7D&file=FGAI4H-K-039.docx&action=default&CT=1613737029587&OR=DocLibClassicUI)
+* Live document: [AI4H DEL 2.2 Regulatory Good Practices ](https://extranet.itu.int/sites/itu-t/focusgroups/ai4h/_layouts/15/WopiFrame.aspx?sourcedoc=%7B828882B2-4941-452C-8A61-F4DDE5802C2A%7D&file=FGAI4H-K-039.docx&action=default&CT=1613737029587&OR=DocLibClassicUI)
 
 ## Related publications
 TODO add bib items to https://github.com/aiaudit-org/website/blob/master/_bibliography/papers.bib

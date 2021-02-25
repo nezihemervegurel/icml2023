@@ -84,7 +84,7 @@
     selected = {true}
 }
 
-@article{euc2020a,
+@article{reportingcards,
     title={White Paper on Artificial Intelligence: a European approach to excellence and trust},
     author={European Commission},
     journal={Whitepaper, Brussels, 19.2.2020 COM(2020) 65 final},
@@ -93,7 +93,7 @@
     selected = {true}
 }
 
-@article{euc2020b,
+@article{reportingcards,
     title={Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment},
     author={European Commission-High-Level Expert Group on Artificial Intelligence},
     journal={European Commission Document, B-1049 Brussels},
@@ -102,7 +102,7 @@
     selected = {true}
 }
 
-@article{gmlp,
+@article{reportingcards,
     title={Good practices for health applications of machine learning: Considerations for manufacturers and regulators},
     author={AI4H-FG},
     journal={Reference Document DEL 2.2 on FG-AI4H server 2020},

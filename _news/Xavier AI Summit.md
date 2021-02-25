@@ -1,0 +1,6 @@
+---
+layout: post
+date: 2021-10-05
+inline: true
+---
+[Xavier AI Summit](https://www.xavierhealth.org/ai-summit)

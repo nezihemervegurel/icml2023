@@ -5,7 +5,7 @@ description: A set of good machine learning practice guidelines intended to educ
 img: /assets/img/Reg_GP.png
 contact: Christian Johner (christian.johner@johner-institut.de) / Pradeep Balachandran (pradeep@aiaudit.org)
 coordinates: Meeting Time -Tuesday (bi-weekly) at 2.00 PM CET
-importance: 1
+importance:1
 ---
 
 # Project Scope

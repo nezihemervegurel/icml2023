@@ -9,7 +9,7 @@ importance: 2
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/m&m.png' | relative_url }}" alt="" title="" width = "48" height = "32"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/m&m.png' | relative_url }}" alt="" title="" width="768" height="432"/>
     </div>
 </div>
 
@@ -40,6 +40,6 @@ Develop better regulations by publications, international standards about measur
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/luis.png' | relative_url }}" alt="" title="Presentation of paper ML4H Auditing: From paper to practice at the Conference on Neural Information Processing System, December 2020" width = "48" height = "32"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/luis.png' | relative_url }}" alt="" title="Presentation of paper ML4H Auditing: From paper to practice at the Conference on Neural Information Processing System, December 2020" width="768" height="432"/>
     </div>
 </div>

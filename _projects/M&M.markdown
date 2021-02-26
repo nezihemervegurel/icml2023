@@ -9,7 +9,7 @@ importance: 2
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/m&m.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/m&m.png' | relative_url }}" alt="" title="" width = "48" height = "32"/>
     </div>
 </div>
 
@@ -34,12 +34,12 @@ Develop better regulations by publications, international standards about measur
 * Github project: You will receive a Github project invitation link to be part of this workstream.
 
 # Miro Plan workstream
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lcP2rJI=/?moveToViewport=-1506,-828,4335,1987" frameBorder="0" scrolling="no" allowFullScreen></iframe> 
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lcP2rJI=/?moveToViewport=-1506,-828,4335,1987" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
 # Achievements
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/luis.png' | relative_url }}" alt="" title="Presentation of paper ML4H Auditing: From paper to practice at the Conference on Neural Information Processing System, December 2020"
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/luis.png' | relative_url }}" alt="" title="Presentation of paper ML4H Auditing: From paper to practice at the Conference on Neural Information Processing System, December 2020" width = "48" height = "32"/>
     </div>
 </div>

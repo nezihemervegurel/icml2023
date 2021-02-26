@@ -47,10 +47,12 @@ A software package to manufacturers notified regulatory bodies.
 * Github project: You will receive a Github project invitation link to be part of this workstream.
 
 # Resources
-* Project board: TODO put link here
+* Project Board: TODO put link here
 * Project repo: TODO put link here
-* Whiteboard: TODO put miro link here
 * Live document: TODO put doc link here
+
+# Project Whiteboard
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lSKa6_w=/?moveToViewport=-1880,-657,3491,1785" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
 ## Related publications
 TODO add bib items to https://github.com/aiaudit-org/website/blob/master/_bibliography/papers.bib

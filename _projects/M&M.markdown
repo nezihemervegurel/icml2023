@@ -33,7 +33,12 @@ Develop better regulations by publications, international standards about measur
 * Chat: You will receive a Discord Server link to join us.
 * Github project: You will receive a Github project invitation link to be part of this workstream.
 
-# Miro Plan workstream
+# Resources
+* Project Board: TODO put link here
+* Project repo: TODO put link here
+* Live document: TODO put doc link here
+
+# Project Whiteboard
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lcP2rJI=/?moveToViewport=-1506,-828,4335,1987" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
 # Achievements

@@ -32,7 +32,7 @@ A unified modelling framework with the following components:
 # Get in touch
 * Contact Email: Christian Johner (christian.johner@johner-institut.de) / Pradeep Balachandran (pradeep@aiaudit.org)
 * Mailing List: TODO
-* Chat: TODO (post invite or link to slack or discord here)
+* Chat: Slack channel: https://daisamreggmlp-inx4514.slack.com
 * Github project: TODO how to join
 
 # Resources

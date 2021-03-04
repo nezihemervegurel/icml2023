@@ -2,7 +2,7 @@
 layout: page
 title: Perturbed Minds (research)
 description: Perturbed Minds is an initiative to discuss more regulations inside Machine Learning and the importance of images, methods, and codes.
-img: /assets/img/perturbed_minds_logo.png
+img: /assets/img/perturbed.png
 contact: Luis Oala (luis@aiaudit.org) & Bruno Sanguinetti (bruno@aiaudit.org)
 coordinates: Friday, 1:00 PM & Geneva Time
 importance: 5
@@ -10,7 +10,7 @@ importance: 5
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/perturbed_minds_logo.png' | relative_url }}" alt="" title="" width="768" height="432"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/perturbed.png' | relative_url }}" alt="" title="" width="768" height="432"/>
     </div>
 </div>
 

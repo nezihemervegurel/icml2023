@@ -1,9 +1,9 @@
 ---
 layout: page
-title: tools
+title: Tools
 permalink: /tools/
 description: A growing collection of your cool projects.
-nav: true
+nav: false
 nav-order: a
 ---
 

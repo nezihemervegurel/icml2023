@@ -1,6 +1,6 @@
 ---
 layout: page
-title: workstreams
+title: Workstreams
 permalink: /workstreams/
 description: A growing collection of aiaudit workstreams.
 nav: true

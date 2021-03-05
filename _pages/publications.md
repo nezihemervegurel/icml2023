@@ -7,7 +7,7 @@ years: [2021, 2020]
 nav: true
 nav-order: b
 ---
-# Standardizations 
+# Standardization
 <div class="publications">
 
 {% for y in page.years %}

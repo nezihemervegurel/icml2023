@@ -2,7 +2,7 @@
 layout: page
 title: Join
 permalink: /join/
-nav: true
+nav: false
 nav-order: d
 
 ---

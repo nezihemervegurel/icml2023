@@ -1,5 +1,78 @@
 http://maruan.alshedivat.com (https://alshedivat.github.io/al-folio/)
 
+# Resources
+
+## Asynchronous channel
+
+## Zoom rooms
+
+## Collaborative whiteboard (miro)
+
+## Github
+
+### Projects
+
+### Boards
+
+### Tasks and Issues
+
+(#### Assign labels)
+
+(#### Assign people)
+
+### Repos
+
+## Shared documents
+
+## ITU document server
+
+## Mailing list
+
+## Calendar
+
+# User stories
+
+## Create a new workstream (coordinator)
+
+1. ### Create mailing list
+
+1. ### Create calendar
+
+1. ### Create mailing list
+
+1. ### Create meeting series on Zoom
+
+1. ### Create asynchronous channel (discord/slack)
+
+1. ### Create project.md in _projects
+1. Fill out with above info + descriptipon
+1. Add project (project card)
+1. Add project image for full text
+
+1. ### Create "projectname".bib in _bibliography
+Insert bibitems of related publications
+
+1. ### Have known contributors fill out the contributor template (including yourself) and add to repo
+
+## Update workstream resources (coordinator)
+
+### Modify resources
+See "Create a new workstream (coordinator)"
+
+### Update project.md
+Go to the repo ... and modify markdown
+
+### Add publications
+Add bibitems to "projectname".bib
+
+## Join a workstream (contributor)
+
+1. ### Join channel
+
+1. ### Subscribe to mailing list
+
+1. ### Add your contributor info to repo
+
 
 # Preliminaries
 

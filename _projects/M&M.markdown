@@ -27,7 +27,14 @@ Develop better regulations by publications, international standards about measur
 * Regulatory documents about measures & metrics inside of Machine Learning.
 * Paper about bias, robustness, uncertainties and other aspects of M&M in ML4H.
 
-# Get in touch
+# Join: coordinates and resources
+General contact: 
+
+| Meetings (Day, time, time zone)| Group chat| Mailing list | Zoom room | Github project | Whiteboard |
+| :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
+| Thursdays, 16.00 hrs, Geneva <br/> Add [meetings series]() to your calendar| Click [here]() to join the discord | PUT THE MAILING LIST HERE [Join the mailing list]() to receive all official communication of the work stream | *Put Zoom link here* | *Put github link here* <br/> Request access to the github project to see tasks and project repo | *Put link here to miro* <br/> Access the collaborative whiteboard of the work stream |
+
+### 
 * Contact Email: Luis Oala (luis@aiaudit.org) and Pat Baird (pat@aiaudit.org)
 * Mailing List: TODO
 * Chat: You will receive a Discord Server link to join us.

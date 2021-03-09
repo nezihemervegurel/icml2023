@@ -23,6 +23,8 @@ Otherwise, we use the most current project management methods and frameworks to 
 
 If you want to develop new projects with a cool, highly trained, and inspire your life to help people worldwide, feel free to be part of our workgroup!
 
+## Workstreams Objectives
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lQ739LQ=/?moveToViewport=-1409,-700,2926,1428" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 _______________________________________________________
 
 #Pradeep, when Luis was structuring the idea of join page, he suggested some points like:

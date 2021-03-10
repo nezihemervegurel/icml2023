@@ -38,8 +38,6 @@ http://maruan.alshedivat.com (https://alshedivat.github.io/al-folio/)
 
 1. ### Create calendar
 
-1. ### Create mailing list
-
 1. ### Create meeting series on Zoom
 
 1. ### Create asynchronous channel (discord/slack)

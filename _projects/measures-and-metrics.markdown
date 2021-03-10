@@ -6,6 +6,7 @@ img: /assets/img/m&m.png
 contact: Luis Oala (luis@aiaudit.org) and Pat Baird (pat@aiaudit.org)
 coordinates: Every Thursday, 2:00 PM, Geneva Time
 importance: 2
+worktype: bg-success
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -17,13 +17,16 @@ nav-order: c
     {% else %}
     <a href="{{ project.url | relative_url }}">
     {% endif %}
-      <div class="card hoverable">
+      <div class="card hoverable {{ project.worktype}}">
         {% if project.img %}
         <img src="{{ project.img | relative_url }}" alt="project thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
+          <h2 class="card-title text-white">{{ project.title }}</h2>
+          <!-- <p class="card-title text-white">Life cycle steps: {{ project.lifecyclesteps }}</p> -->
+          <p class="card-text text-white">{{ project.description }}</p>
+          <p class="card-title text-white">Meetings: {{ project.coordinates }}</p>
+          <!-- <a href="{{ project.url | relative_url }}" class="btn btn-primary">Details</a> -->
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}
             <div class="github-icon">

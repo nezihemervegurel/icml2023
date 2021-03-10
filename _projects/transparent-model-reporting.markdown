@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Transparent model reporting (Research)
+title: Transparent model reporting
 description: TMR is research about one of the most critical topics about ML4H transparency.
 img: /assets/img/tmr.png
 contact: Jana Fehr(jana@aiaudit.org)
 coordinates: Every Thursday, 2:00 PM, Geneva Time
 importance: 4
+worktype: bg-success
 ---
 
 <div class="row">

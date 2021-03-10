@@ -6,6 +6,7 @@ img: /assets/img/ap_logo.png
 contact: Elora Schöerverth (elora@aiaudit.org), Pradeep Balachandran (pradeep@aiaudit.org) & Alixandro Werneck (alixandro@aiaudit.org)
 coordinates: Tuesday, 4:00 PM & Geneva Time
 importance: 3
+worktype: bg-info
 ---
 
 <div class="row">

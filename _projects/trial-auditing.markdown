@@ -1,14 +1,12 @@
 ---
 layout: page
-title: TODO (add title for project here)
+title: Trial Auditing
 description: TODO (write a short project description, 1 or 2 sentences) 
 img: /assets/img/Reg_GP.png TODO add img for project to /assets/img/ folder and then link to it as in example shown
 contact: TODO (add the contact email and names of coordinators)
 coordinates: TODO add meeting times in format (day, frequency, time, time zone)
 importance: 1
-worktype: #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
-lifecyclesteps: 1,2,3
-github: 
+worktype: bg-primary
 ---
 
 # Project Scope

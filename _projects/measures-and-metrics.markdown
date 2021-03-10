@@ -7,12 +7,15 @@ contact: Luis Oala (luis@aiaudit.org) and Pat Baird (pat@aiaudit.org)
 coordinates: Every Thursday, 2:00 PM, Geneva Time
 importance: 2
 worktype: bg-success
+lifecyclesteps: 1 2 3 4
+github: 
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/m&m.png' | relative_url }}" alt="" title="" width="768" height="432"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/IMDRF-ICD.png' | relative_url }}" alt="" title="" width="{{ site.max_width }}" height="100"/>
     </div>
 </div>
+<br/>
 
 # Project Scope
 Since 2020, the Measures & Metrics workstream has researched regulatory aspects inside of Machine Learning for Health. We study a collection of SOTA ML quality assurance methods like bias, generalizations, robustness, uncertainty, and so forth about use cases and regulatory topics. Our expectation is finish the project until the end of 2022.
@@ -49,7 +52,7 @@ General contact:
 # Project Whiteboard
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lcP2rJI=/?moveToViewport=-1506,-828,4335,1987" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
-# Achievements
+# Milestones
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

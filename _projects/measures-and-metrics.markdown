@@ -17,45 +17,72 @@ github:
 </div>
 <br/>
 
-# Project Scope
+# Scope
 Since 2020, the Measures & Metrics workstream has researched regulatory aspects inside of Machine Learning for Health. We study a collection of SOTA ML quality assurance methods like bias, generalizations, robustness, uncertainty, and so forth about use cases and regulatory topics. Our expectation is finish the project until the end of 2022.
 
 Today, our multidisciplinary team has students and professionals from different companies, laboratories, universities worldwide focusing on creating regulatory documents and providing better solutions to society.
 
 We already developed a paper about Machine Learning for Health Audit in this workstream (see in publications). Our objective is to move to easy to maintain and use web resources.
 
-## Aims and Objectives
+#### Aims
 Develop better regulations by publications, international standards about measures, and metrics inside Machine Learning for Health.
 
-## Planned Outputs
+#### Planned Outputs
 * Regulatory documents about measures & metrics inside of Machine Learning.
 * Paper about bias, robustness, uncertainties and other aspects of M&M in ML4H.
 
-# Join: coordinates and resources
-General contact: 
+---
+# Collaboration resources
+You are welcome to inquire about the work stream and opporunities for collaboration directly with the work stream team.
+* **General contact**
 
-| Meetings (Day, time, time zone)| Group chat| Mailing list | Zoom room | Github project | Whiteboard |
-| :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
-| Thursdays, 16.00 hrs, Geneva <br/> Add [meetings series]() to your calendar| Click [here]() to join the discord | PUT THE MAILING LIST HERE [Join the mailing list]() to receive all official communication of the work stream | *Put Zoom link here* | *Put github link here* <br/> Request access to the github project to see tasks and project repo | *Put link here to miro* <br/> Access the collaborative whiteboard of the work stream |
+#### Meetings
+Regular meetings for this work stream take place at the below coordinates. 
+* **Meetings** Thursdays, 16.00 hrs, Geneva
+* **Zoom room**
 
-### 
-* Contact Email: Luis Oala (luis@aiaudit.org) and Pat Baird (pat@aiaudit.org)
-* Mailing List: TODO
-* Chat: You will receive a Discord Server link to join us.
-* Github project: You will receive a Github project invitation link to be part of this workstream.
+#### Communication
+You can subsbscribe to the work stream mailing list to receive updates and join the asynchronous group chat.
+* **Group chat**
+* **Mailing list**
 
-# Resources
-* Project Board: TODO put link here
-* Project repo: TODO put link here
-* Live document: TODO put doc link here
+#### Tools
+We use different tools in our remote work. They include shared documents, github projects for code as well as task tracking and a collaborative whiteboard for ideation. You can request access via the below links.
+* **Shared document**
+* **Github project**
+* **Collaborative whiteboard** 
 
-# Project Whiteboard
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lcP2rJI=/?moveToViewport=-1506,-828,4335,1987" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+You can find more information about the way we usually carry out our work remotely in teams [here](https://aiaudit.org/join).
+
+---
 
 # Milestones
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/luis.png' | relative_url }}" alt="" title="Presentation of paper ML4H Auditing: From paper to practice at the Conference on Neural Information Processing System, December 2020" width="768" height="432"/>
+<div class="news">
+  {% if site.news  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign news = site.news | reverse %}
+      {% for item in news limit: site.news_limit %}
+        <tr>
+          <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+          <td>
+            {% if item.inline %}
+              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+            {% else %}
+              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
     </div>
+  {% else %}
+    
+  {% endif %}
 </div>
+TODO: news filtered with project slug
+
+# Related work and resources
+This is a list of related work and resources relevant for this work stream.
+TODO: ref with tag

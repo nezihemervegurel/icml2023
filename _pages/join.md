@@ -54,32 +54,36 @@ We greatly appreciate your interest in joining our growing aiaudit.org community
 
 
 
-Join as a Member-at Large
+1. Join as a Member-at Large
 
-1.	Add personal information
-Add Name
-Add Affiliation
-Add Brief Profile
-2.	Subscribe to general mailing list
-Add Email Id
+  1.1 Add personal information
+      Add Name
+      Add Affiliation
+      Add Brief Profile
 
-Join a Project / Workstream 
-3.	Add personal information
-Add Name
-Add Affiliation
-Add Brief Profile
-4.	Subscribe to project mailing list
-Add Email Id
-5.	Join channel
-Add me to Git Hub (Project Repo)
-Add me to Trello Board (Project Management Board)
-Add me to Miro Board (White Board)
-Add me to Zoom (Video Conferencing tool)
-Add me to Slack (Chat / Communication channel)
-Add me to Discord (Chat / Communication channel)
-6.	Add your contributor info to repo
-Add your role (Project Driver/Lead/Principal Investigator, Project Developer, Project Associate)
+  1.2 Subscribe to general mailing list
+      Add Email Id
 
+2. Join a Project / Workstream 
+
+  2.1 Add personal information
+      Add Name
+      Add Affiliation
+      Add Brief Profile
+  
+  2.2 Subscribe to project mailing list
+      Add Email Id
+
+  2.3 Join channel
+      Add me to Git Hub (Project Repo)
+      Add me to Trello Board (Project Management Board)
+      Add me to Miro Board (White Board)
+      Add me to Zoom (Video Conferencing tool)
+      Add me to Slack (Chat / Communication channel)
+      Add me to Discord (Chat / Communication channel)
+     
+  2.4 Add your contributor info to repo
+      Add your role (Project Driver/Lead/Principal Investigator, Project Developer, Project Associate)
 
 Contact
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Measures & Metrics #a project title as it will appear on the website
-img: /assets/img/IMDRF-ICD.png #thumbnail logo for the project overview
+img: /assets/img/m&m.png #thumbnail logo for the project overview
 img2: /assets/img/IMDRF-ICD.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
 worktype: bg-success #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
 lifecyclesteps: 1 2 3 4 #select one or more of the numbers for the life cycle steps 1 2 3 4

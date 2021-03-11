@@ -63,15 +63,27 @@ Go to the repo ... and modify markdown
 ### Add publications
 Add bibitems to "projectname".bib
 
-## Join a workstream (contributor)
+## Join a Project / Workstream (contributor)
 
-1. ### Join channel
+1. ### Add personal information
+   #### Add Name
+   #### Add Affiliation
+   #### Add Brief Profile
 
-1. ### Subscribe to mailing list
-
+1. ### Subscribe to project mailing list
+   #### Add Email Id
+   
+1. ### Join channel 
+   #### Add me to Git Hub (Project Repo)
+   #### Add me to Trello Board (Project Management Board)
+   #### Add me to Miro Board (White Board)
+   #### Add me to Zoom (Video Conferencing tool)
+   #### Add me to Slack (Chat / Communication channel)
+   #### Add me to Discord (Chat / Communication channel)
+       
 1. ### Add your contributor info to repo
-
-
+   #### Add your role (Project Driver/Lead/Principal Investigator, Project Developer, Project Associate)
+   
 # Preliminaries
 
 Have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*)

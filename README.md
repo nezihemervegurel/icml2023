@@ -65,7 +65,10 @@ Add bibitems to "projectname".bib
 
 ## Join a workstream (contributor)
 
-1. ### Join channel
+1. ### Join channel 
+   #### Personal information
+   ##### Name:
+   ##### Affiliation:
 
 1. ### Subscribe to mailing list
 

@@ -82,9 +82,8 @@ Add bibitems to "projectname".bib
    #### Add me to Discord (Chat / Communication channel)
        
 1. ### Add your contributor info to repo
-   #### Select your role 
-   ##### Options (Project Driver/Pricipal Investigator, Project Developer, Project Associate)
-
+   #### Add your role (Project Driver/Lead/Principal Investigator, Project Developer, Project Associate)
+   
 # Preliminaries
 
 Have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*)

@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2021-10-05
+date: #YYYY-MM-DD
+title: #if inline: false put a title and content will be displayed as tag
 inline: true
-projecttag: 
+projecttag: tagoftheproject #if newsitem belongs to project put it here
 ---
-[Xavier AI Summit](https://www.xavierhealth.org/ai-summit)
+Some content

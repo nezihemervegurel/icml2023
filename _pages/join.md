@@ -40,3 +40,48 @@ _______________________________________________________
 6.1. code
 6.2. tracking tasks and issues
 6.3. Shared documents
+
+----------------------------------------------------------------
+
+Draft outline of 'Join' page added below for review 
+
+We greatly appreciate your interest in joining our growing aiaudit.org community. This page will guide you through the step-by-step procedure on how to join aiaudit.org and in what all ways you can get involved and contribute to the various research projects/ groups currently active under aiaudit.org.
+
+
+1.	As a first step, we would highly recommend you to go through the aiaudit.org membership terms and conditions, which can be accessed here: (‘here’ as hyperlink to aiaudit.org terms and conditions web page or document)
+
+2.	You can also learn more about the definitions of different membership levels available , their corresponding scope of roles and responsibilities from here (  ‘here’ as hyperlink to README.md page)
+
+
+
+Join as a Member-at Large
+
+1.	Add personal information
+Add Name
+Add Affiliation
+Add Brief Profile
+2.	Subscribe to general mailing list
+Add Email Id
+
+Join a Project / Workstream 
+3.	Add personal information
+Add Name
+Add Affiliation
+Add Brief Profile
+4.	Subscribe to project mailing list
+Add Email Id
+5.	Join channel
+Add me to Git Hub (Project Repo)
+Add me to Trello Board (Project Management Board)
+Add me to Miro Board (White Board)
+Add me to Zoom (Video Conferencing tool)
+Add me to Slack (Chat / Communication channel)
+Add me to Discord (Chat / Communication channel)
+6.	Add your contributor info to repo
+Add your role (Project Driver/Lead/Principal Investigator, Project Developer, Project Associate)
+
+
+Contact
+
+For any clarifications / queries regarding membership formalities, you may contact us at : infor@ aiaudit.org
+

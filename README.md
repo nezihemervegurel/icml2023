@@ -67,8 +67,8 @@ Add bibitems to "projectname".bib
 
 1. ### Join channel 
    #### Personal information
-   ##### Name:
-   ##### Affiliation:
+      ##### Name:
+      ##### Affiliation:
 
 1. ### Subscribe to mailing list
 

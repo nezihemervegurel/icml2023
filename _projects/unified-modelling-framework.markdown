@@ -23,8 +23,8 @@ This project aims at the design and development of a process and content managem
 
 A unified modelling framework with the following components:
 
-* 	Data model: 
-		Requirements 
+* 	Data model:
+		Requirements
 		Attributes such as priority, examples, references
 		Associations
 *	Process Model:

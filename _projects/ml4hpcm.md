@@ -6,7 +6,7 @@ img2: /assets/img/ML4HPCM.png #a second banner for the second half of the page, 
 worktype: bg-primary #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
 lifecyclesteps: 1 2 3 4 #select one or more of the numbers for the life cycle steps 1 2 3 4
 description: A unified modelling framework to address the problem of conceptual mapping and semantic interoperability of product requirements of AI/ML based medical devices among various stakeholders including software deveopers, quality managers,medical professionals and notified bodies. #a very short description of
-projecttag: ML4H-PCM #use this tag as the name for your project .bib file
+projecttag: ml4hpcm #use this tag as the name for your project .bib file
 contact: Christian Johner, christian.johner@johner-institut.de / Pradeep Balachandran, pradeep@aiaudit.org #Firstname Lastname, email of the general contact
 coordinates: Bi-weekly Tuesday , 2:00 PM, CET #Interval and day, HH:MM PM, time zone
 zoomroom: https://zoom.us/j/97186065542?pwd=MG9JeUpMYTYzNnhzb0FqMFloc2p2QT09 #link to the zoom room that is used for meetings

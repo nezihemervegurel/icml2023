@@ -44,9 +44,7 @@ This project aims at the development of good machine learning practice guideline
 
 ## Related publications
 TODO add bib items to https://github.com/aiaudit-org/website/blob/master/_bibliography/papers.bib
-TODO add jekyll scholar info
-
-
-   
+TODO add jekyll scholar info 
    
      
+

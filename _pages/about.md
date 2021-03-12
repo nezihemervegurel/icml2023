@@ -21,10 +21,12 @@ TODO: link to all the menu items in the above text
   {% include news.html %}
 {% endif %}
 
+{% include visual.html %}
+
 ## Vision
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/eval-process.jpg' | relative_url }}" alt="" title=""  width="768" height="432"/>
+        <!-- <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/eval-process.jpg' | relative_url }}" alt="" title=""  width="768" height="432"/> -->
     </div>
 </div>
 <br/>

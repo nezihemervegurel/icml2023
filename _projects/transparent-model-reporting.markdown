@@ -11,7 +11,7 @@ worktype: bg-success
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/tmr.png' | relative_url }}" alt="" title="" width="{{ site.max_width }}" height="100"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/tmr.png' | relative_url }}" alt="" title="" width="296" height="159"/>
     </div>
 </div>
 

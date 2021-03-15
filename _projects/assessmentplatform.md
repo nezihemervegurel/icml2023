@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Assessment Platform (Evaluation & Reporting Packages)
+title: Assessment Platform
 description: Assessment Platform(AP) is an international initiative to create an open-source to promote health analysis.
 img: /assets/img/ap_logo.png
 contact: Elora Schöerverth (elora@aiaudit.org), Pradeep Balachandran (pradeep@aiaudit.org) & Alixandro Werneck (alixandro@aiaudit.org)
-coordinates: Tuesday, 4:00 PM & Geneva Time
+coordinates: Every Tuesday, 4.00 PM, CET
 importance: 3
 worktype: bg-info
 ---

@@ -5,10 +5,10 @@ img: /assets/img/ML4HPCM.png #thumbnail logo for the project overview
 img2: /assets/img/ML4HPCM.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
 worktype: bg-primary #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
 lifecyclesteps: 1 2 3 4 #select one or more of the numbers for the life cycle steps 1 2 3 4
-description: A unified modelling framework to address the problem of conceptual mapping and semantic interoperability of product requirements of AI/ML based medical devices among various stakeholders including software deveopers, quality managers,medical professionals and notified bodies. #a very short description of
+description: A unified modelling framework to address the problem of conceptual mapping and semantic interoperability of product requirements of AI/ML based medical devices among various stakeholders including software developers, quality managers, medical professionals and notified bodies. #a very short description of
 projecttag: ml4hpcm #use this tag as the name for your project .bib file
 contact: Christian Johner, christian.johner@johner-institut.de / Pradeep Balachandran, pradeep@aiaudit.org #Firstname Lastname, email of the general contact
-coordinates: Bi-weekly Tuesday , 2:00 PM, CET #Interval and day, HH:MM PM, time zone
+coordinates: Bi-weekly Tuesday, 2.00 PM, CET #Interval and day, HH:MM PM, time zone
 zoomroom: https://zoom.us/j/97186065542?pwd=MG9JeUpMYTYzNnhzb0FqMFloc2p2QT09 #link to the zoom room that is used for meetings
 groupchat: https://daisamreggmlp-inx4514.slack.com #invite/access request link to the group chat
 mailinglist: #email of the mailing list that people can subscribe to for this workstream

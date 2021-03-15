@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /publications/
-title: Publications
-description: Here you can find a list of publications related to AI auditing that are output of the aiaudit.org network or its contributors
+permalink: /outputs/
+title: Outputs
+description: Here you can find a list of outputs related to AI auditing from the aiaudit.org network or its contributors.
 years: [2021, 2020]
 nav: true
 nav-order: b

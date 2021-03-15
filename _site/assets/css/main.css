@@ -133,3 +133,5 @@ footer.sticky-bottom { max-width: 800px; text-align: center; margin: 0 auto; bor
 code { color: var(--global-theme-color); }
 
 html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }
+
+.modebar { display: none !important; }

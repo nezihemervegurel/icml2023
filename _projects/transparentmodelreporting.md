@@ -16,7 +16,7 @@ github: #provide a github link for the project if it exists
 whiteboard: #link to the miro whiteboard that is used for the work stream
 drive: #link to the shared drive of the work stream (for documents etc)
 importance: 2
---
+---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

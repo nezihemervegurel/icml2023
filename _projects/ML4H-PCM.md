@@ -43,7 +43,7 @@ You are welcome to inquire about the work stream and opporunities for collaborat
 * **General contact** {{ page.contact }}
 
 #### Meetings
-Regular meetings for this work stream take place at the below coordinates. 
+Regular meetings for this work stream take place at the below coordinates.
 * **Meetings** {{ page.coordinates }}
 * **Zoom room** [Click here to join meeting]({{ page.zoomroom }})
 
@@ -85,7 +85,7 @@ You can find more information about the way we usually carry out our work remote
       </table>
     </div>
   {% else %}
-    
+
   {% endif %}
 </div>
 
@@ -102,6 +102,3 @@ This is a list of related work and resources relevant for this work stream. It c
 <div class="publications">
   {% bibliography -f {{ page.projecttag }} %}
 </div>
-
-
-

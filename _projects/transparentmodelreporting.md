@@ -1,32 +1,22 @@
 ---
 layout: page
-<<<<<<< HEAD:_projects/transparent-model-reporting.markdown
-title: Transparent model reporting
+title: Transparent model reporting #a project title as it will appear on the website
 img: /assets/img/tmr.png #thumbnail logo for the project overview
 img2: /assets/img/tmr.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
-worktype: bg-primary #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
+worktype: bg-success #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
 lifecyclesteps: 1 2 3 4 #select one or more of the numbers for the life cycle steps 1 2 3 4
-description: TMR is research about one of the most critical topics about ML4H transparency.
-img: /assets/img/tmr.png
+description: Transparent Model Reporting is a guided, structred , standardized, analytical pathway for ML4H quality assurance/ model reporting practice / auditing framework #a very short description of
 projecttag: tmr #use this tag as the name for your project .bib file
-contact: Jana Fehr, jana@aiaudit.org
-coordinates: Weekly, Thursday , 2:00 PM, CET #Interval and day, HH:MM PM, time zone
-zoomroom: https://zoom.us/j/94465819453?pwd=QXVwQlAyMS9nUGJqdWl5ZmcxYzc5QT09 #link to the zoom room that is used for meetings
+contact: Jana Fehr, jana@aiaudit.org #Firstname Lastname, email of the general contact
+coordinates: Every Thursday, 4:00 PM, CET #Interval and day, HH:MM PM, time zone
+zoomroom: https://zoom.us/j/94465819453?pwd=QXVwQlAyMS9nUGJqdWl5ZmcxYzc5QT09#link to the zoom room that is used for meetings
 groupchat: https://discord.gg/53zWbgxt #invite/access request link to the group chat
 mailinglist: #email of the mailing list that people can subscribe to for this workstream
 github: #provide a github link for the project if it exists
 whiteboard: #link to the miro whiteboard that is used for the work stream
 drive: #link to the shared drive of the work stream (for documents etc)
-=======
-title: Transparent Model Reporting
-description: TMR is research about one of the most critical topics about ML4H transparency.
-img: /assets/img/tmr.png
-contact: Jana Fehr(jana@aiaudit.org)
-coordinates: Every Thursday, 4.00 PM, CET
-importance: 4
-worktype: bg-success
->>>>>>> 16da9487859e939baa8b20cd98b8da8f53d04f01:_projects/transparentmodelreporting.md
----
+importance: 2
+--
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

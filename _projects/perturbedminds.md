@@ -7,7 +7,7 @@ worktype: bg-success #select one of the colors (researchandmethods: bg-success, 
 lifecyclesteps: #select one or more of the numbers for the life cycle steps 1 2 3 4
 description: #a very short description of
 projecttag: perturbedminds #use this tag as the name for your project .bib file
-contact: #Firstname Lastname, email of the general contact
+contact: Luis Oala, luis.oala@hhi.fraunhofer.de #Firstname Lastname, email of the general contact
 coordinates: Every Friday, 1.00 PM, CET #Interval and day, HH:MM PM, time zone
 zoomroom: #link to the zoom room that is used for meetings
 groupchat: #invite/access request link to the group chat

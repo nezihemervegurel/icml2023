@@ -3,22 +3,20 @@ layout: page
 title: Perturbed Minds #a project title as it will appear on the website
 img: /assets/img/perturbed.png #thumbnail logo for the project overview
 img2: /assets/img/perturbed.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
-worktype: bg-primary #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
-lifecyclesteps: 1 2 3 4 #select one or more of the numbers for the life cycle steps 1 2 3 4
-description: Perturbed Minds is an initiative to discuss more regulations inside Machine Learning and the importance of images, methods, and codes.
-projecttag: perturbed #use this tag as the name for your project .bib file
-contact: Luis Oala, luis@aiaudit.org / Bruno Sanguinetti, bruno@aiaudit.org
-coordinates: Weekly Friday , 1:00 PM, CET #Interval and day, HH:MM PM, time zone
-zoomroom: https://zoom.us/j/92865580761?pwd=ZS9XREo3YUw1cUNCaUpSL0s4eGZSQT09 #link to the zoom room that is used for meetings
-groupchat: https://join.slack.com/t/perturbed-minds/shared_invite/zt-nrmrki43-nKqb1Rw0x3DKxXrh8jr3VA #invite/access request link to the group chat
+worktype: bg-success #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
+lifecyclesteps: #select one or more of the numbers for the life cycle steps 1 2 3 4
+description: #a very short description of
+projecttag: perturbedminds #use this tag as the name for your project .bib file
+contact: Luis Oala, luis.oala@hhi.fraunhofer.de #Firstname Lastname, email of the general contact
+coordinates: Every Friday, 1.00 PM, CET #Interval and day, HH:MM PM, time zone
+zoomroom: #link to the zoom room that is used for meetings
+groupchat: #invite/access request link to the group chat
 mailinglist: #email of the mailing list that people can subscribe to for this workstream
 github: #provide a github link for the project if it exists
 whiteboard: #link to the miro whiteboard that is used for the work stream
 drive: #link to the shared drive of the work stream (for documents etc)
-importance: 5
-worktype: bg-success
+importance: 2
 ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ page.img | relative_url }}" alt="" title="" width="{{ site.max_width }}" height="100"/>
@@ -27,18 +25,12 @@ worktype: bg-success
 <br/>
 
 # Scope
-
-Perturbed Minds is an initiative to discuss more regulations inside Machine Learning and the importance of images, methods, and codes.
-
-AI Audit doesn't intend to publish somebody's codes or data but analyzes the impact of image data, looking for plausible robustness testing in medical imaging.
+TODO (two or three paragraphs on the scope of the project)
 
 #### Aims
-
-* Create a discussion about medical imaging and robustness by scientific publications, seminars & webinars.
-* Manufacturers, academics, health users notified regulatory bodies.
+TODO (one paragraph on the aims of the project)
 
 #### Outputs
-
 <div class="publications">
   {% bibliography -f {{ page.projecttag }} -q @*[projectoutput=true]* %}
 </div>
@@ -49,7 +41,7 @@ You are welcome to inquire about the work stream and opporunities for collaborat
 * **General contact** {{ page.contact }}
 
 #### Meetings
-Regular meetings for this work stream take place at the below coordinates.
+Regular meetings for this work stream take place at the below coordinates. 
 * **Meetings** {{ page.coordinates }}
 * **Zoom room** [Click here to join meeting]({{ page.zoomroom }})
 
@@ -91,7 +83,7 @@ You can find more information about the way we usually carry out our work remote
       </table>
     </div>
   {% else %}
-
+    
   {% endif %}
 </div>
 
@@ -108,3 +100,5 @@ This is a list of related work and resources relevant for this work stream. It c
 <div class="publications">
   {% bibliography -f {{ page.projecttag }} %}
 </div>
+
+

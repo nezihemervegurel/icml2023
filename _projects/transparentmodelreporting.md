@@ -6,7 +6,7 @@ img2: /assets/img/tmr.png #a second banner for the second half of the page, cont
 worktype: bg-success #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
 lifecyclesteps: 1 2 3 4 #select one or more of the numbers for the life cycle steps 1 2 3 4
 description: Transparent Model Reporting is a guided, structred , standardized, analytical pathway for ML4H quality assurance/ model reporting practice / auditing framework #a very short description of
-projecttag: tmr #use this tag as the name for your project .bib file
+projecttag: transparentmodelreporting #use this tag as the name for your project .bib file
 contact: Jana Fehr, jana@aiaudit.org #Firstname Lastname, email of the general contact
 coordinates: Every Thursday, 4:00 PM, CET #Interval and day, HH:MM PM, time zone
 zoomroom: https://zoom.us/j/94465819453?pwd=QXVwQlAyMS9nUGJqdWl5ZmcxYzc5QT09#link to the zoom room that is used for meetings

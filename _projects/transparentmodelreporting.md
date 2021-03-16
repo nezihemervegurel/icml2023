@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Transparent model reporting #a project title as it will appear on the website
+title: Transparent Model Reporting #a project title as it will appear on the website
 img: /assets/img/tmr.png #thumbnail logo for the project overview
 img2: /assets/img/tmr.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
 worktype: bg-success #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)

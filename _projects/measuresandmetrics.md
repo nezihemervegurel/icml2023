@@ -7,7 +7,7 @@ worktype: bg-success #select one of the colors (researchandmethods: bg-success, 
 lifecyclesteps: 1 2 3 4 #select one or more of the numbers for the life cycle steps 1 2 3 4
 description: Collection of SOTA ML quality assurance methods like bias, generalizations, robustness, uncertainty, and so forth about use cases and regulatory topics. #a very short description of
 projecttag: measuresandmetrics #use this tag as the name for your project .bib file
-contact: Jana Fehr, jana.fehr@dpi.de #Firstname Lastname, email of the general contact
+contact: Luis Oala, luis@aiaudit.org #Firstname Lastname, email of the general contact
 coordinates: Weekly, Thursday, 2:00 PM, CET #Interval and day, HH:MM PM, time zone
 zoomroom: #link to the zoom room that is used for meetings
 groupchat: #invite/access request link to the group chat

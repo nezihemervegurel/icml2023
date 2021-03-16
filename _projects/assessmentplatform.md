@@ -1,5 +1,6 @@
 ---
 layout: page
+<<<<<<< HEAD:_projects/assessment-platform.markdown
 title: Assessment Platform (Evaluation & Reporting Packages) #a project title as it will appear on the website
 img: /assets/img/ap_logo.png #thumbnail logo for the project overview
 img2: /assets/img/ap_logo.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
@@ -16,6 +17,14 @@ github: #provide a github link for the project if it exists
 whiteboard: #link to the miro whiteboard that is used for the work stream
 drive: #link to the shared drive of the work stream (for documents etc)
 importance: 2
+=======
+title: Assessment Platform
+description: Assessment Platform(AP) is an international initiative to create an open-source to promote health analysis.
+img: /assets/img/ap_logo.png
+contact: Elora Schöerverth (elora@aiaudit.org), Pradeep Balachandran (pradeep@aiaudit.org) & Alixandro Werneck (alixandro@aiaudit.org)
+coordinates: Every Tuesday, 4.00 PM, CET
+importance: 3
+>>>>>>> 16da9487859e939baa8b20cd98b8da8f53d04f01:_projects/assessmentplatform.md
 worktype: bg-info
 ---
 <div class="row">

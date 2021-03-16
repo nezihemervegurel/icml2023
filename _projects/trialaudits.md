@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Trial Auditing
+title: Trial Audits
 description: TODO (write a short project description, 1 or 2 sentences) 
 img: /assets/img/Reg_GP.png TODO add img for project to /assets/img/ folder and then link to it as in example shown
 contact: TODO (add the contact email and names of coordinators)

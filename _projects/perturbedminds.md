@@ -1,16 +1,16 @@
 ---
 layout: page
-title: ML4H Regulatory Good practices #a project title as it will appear on the website
-img: /assets/img/Reg_GP.png #thumbnail logo for the project overview
-img2: /assets/img/Reg_GP.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
-worktype: bg-primary #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
-lifecyclesteps: 1 2 3 #select one or more of the numbers for the life cycle steps 1 2 3 4
-description: A set of good machine learning practice guidelines intended to educate the developers and manufacturers of healthcare AI solutions to ensure regulatory compliance for the AI based Medical Devices. #a very short description of
-projecttag: Reg-GMLP #use this tag as the name for your project .bib file
-contact: Christian Johner, christian.johner@johner-institut.de / Pradeep Balachandran, pradeep@aiaudit.org #Firstname Lastname, email of the general contact
-coordinates: Bi-weekly Tuesday , 2:00 PM, CET #Interval and day, HH:MM PM, time zone
-zoomroom: https://zoom.us/j/97186065542?pwd=MG9JeUpMYTYzNnhzb0FqMFloc2p2QT09 #link to the zoom room that is used for meetings
-groupchat: https://daisamregulat-yxd5890.slack.com #invite/access request link to the group chat
+title: Perturbed Minds #a project title as it will appear on the website
+img: /assets/img/perturbed.png #thumbnail logo for the project overview
+img2: /assets/img/perturbed.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
+worktype: bg-success #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
+lifecyclesteps: #select one or more of the numbers for the life cycle steps 1 2 3 4
+description: #a very short description of
+projecttag: perturbedminds #use this tag as the name for your project .bib file
+contact: #Firstname Lastname, email of the general contact
+coordinates: Every Friday, 1.00 PM, CET #Interval and day, HH:MM PM, time zone
+zoomroom: #link to the zoom room that is used for meetings
+groupchat: #invite/access request link to the group chat
 mailinglist: #email of the mailing list that people can subscribe to for this workstream
 github: #provide a github link for the project if it exists
 whiteboard: #link to the miro whiteboard that is used for the work stream
@@ -25,12 +25,10 @@ importance: 2
 <br/>
 
 # Scope
-This project aims at the development of good machine learning practice guidelines to educate the developers and manufacturers of healthcare AI solutions on how to conduct a comprehensive requirements analysis and conformity assessment procedures for continual product improvement in an iterative and adaptive manner in conformance with the applicable standards and regulations.
+TODO (two or three paragraphs on the scope of the project)
 
 #### Aims
-* To help manufacturers familiarize with international laws and regulations that applies to AI/ML-based medical devices and to bring them to market quickly and effectively.
-
-* To help internal and external auditors test the legal conformity of AI/ML-based medical devices and the associated life-cycle process
+TODO (one paragraph on the aims of the project)
 
 #### Outputs
 <div class="publications">

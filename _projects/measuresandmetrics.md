@@ -93,7 +93,7 @@ You can find more information about the way we usually carry out our work remote
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ page.img2 | relative_url }}" alt="" title="" width="{{ site.max_width }}" height="100"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ page.img | relative_url }}" alt="" title="" width="{{ site.max_width }}" height="100"/>
     </div>
 </div>
 <br/>

@@ -162,6 +162,11 @@ $ bundle exec jekyll serve
 ```
 to have a look at the website locally.
 
+Alternatively you can use the .devcontainer functionality in VS Code. Inside the container simply run 
+```bash
+$ bundle exec jekyll serve
+```
+
 Now, you can add contents in markdown. When you are done
 
 

@@ -3,7 +3,7 @@ layout: page
 title: Join
 permalink: /join/
 nav: true
-nav-order: d
+nav-order: e
 
 ---
 If you are interested to learn more about the ongoing projects inside the *aiaudit.org* network we invite you to take a look at the [workstreams pages](https://aiaudit.org/workstreams/). Outputs from the network or its contributors related to AI auditing [you can find here](https://aiaudit.org/outputs/).

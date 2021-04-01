@@ -9,7 +9,7 @@ nav-order: d
 
 <div class="projects grid">
 
-  {% assign sorted_contributors = site.contributors | sort: "importance" %}
+  {% assign sorted_contributors = site.contributors | sample:100 %}
   {% for contributor in sorted_contributors %}
   <div class="grid-item">
     {% if contributor.redirect %}

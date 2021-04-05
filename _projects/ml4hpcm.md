@@ -2,7 +2,7 @@
 layout: page
 title: ML4H Process and Content Management System #a project title as it will appear on the website
 img: /assets/img/ML4HPCM.png #thumbnail logo for the project overview
-img2: /assets/img/ML4HPCM.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
+img2: /assets/img/AIMDSCOPE.png #a second banner for the second half of the page, contents of this banner should be related to the work stream
 worktype: bg-primary #select one of the colors (researchandmethods: bg-success, standardizationandregulation: bg-primary, softwaretooling: bg-info)
 lifecyclesteps: 1 2 3 4 #select one or more of the numbers for the life cycle steps 1 2 3 4
 description: A unified modelling framework to address the problem of conceptual mapping and semantic interoperability of product requirements of AI/ML based medical devices among various stakeholders including software developers, quality managers, medical professionals and notified bodies. #a very short description of
@@ -25,7 +25,7 @@ importance: 2
 <br/>
 
 # Scope
-This project aims at the design and development of a process and content management system for maintaining ML4H guidelines and checklists aimed at reducing the regulatory complexity and thereby accelerate the time-to-market of AI/ML based medical devices
+This project aims at the design and development of a process and content management system(PCMS) for regulatory good machine learning practice guidelines(GMLP). The PCM system can potentially serve as a workflow utility or tool for the healthcare AI product developers, manufactiurers and regualtors and can guide them on how to efficiently and optimally adopt the regulatory GMLPs in reducing the complexity of the requirements analysis and conformity assessment workflows.
 
 #### Aims
 * To develop an ontology database

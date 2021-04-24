@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ITU-WHO AI4H FG Workshop "Artificial Intelligence for Health (AI4H) 
+title: ITU-WHO AI4H FG Workshop "Artificial Intelligence for Health (AI4H)-Standardized Assessment Framework"
 date: 2020-01-08 
 inline: false
 ---

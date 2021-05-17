@@ -3,7 +3,7 @@ layout: contributor
 name: Erick Muñoz Alvarado
 img: /assets/img/erick.jpg
 affiliation: Instituto Tecnológico de Costa Rica
-minibio: Computer engineering student, passionate about science and technology. I enjoy improving machine learning systems to solve real world problems and generate a positive impact in our society.
+minibio: Computer engineering student, passionate about science and technology. I enjoy improving machine learning systems to solve real world problems and generate a positive impact in our society. 
 mail: erickamacr3@gmail.com
 website: 
 twitter: 

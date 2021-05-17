@@ -1,6 +1,6 @@
 ---
 layout: contributor
-name: Jhonatan Hamner Tirado Tirado
+name: Jhonatan Hamner Tirado
 img: /assets/img/jhonatan.jpg
 affiliation: Universidad Nacional Mayor de San Marcos
 minibio: 

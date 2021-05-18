@@ -2,7 +2,7 @@
 layout: page
 title: Contributors
 permalink: /contributors/
-description: The people and organizations who contribute to the network activities
+description: The people and organizations who contribute to the network activities. The order is random and reshuffled each time a new contributor is added.
 nav: true
 nav-order: d
 ---

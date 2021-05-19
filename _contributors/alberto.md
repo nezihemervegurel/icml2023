@@ -3,7 +3,7 @@ layout: contributor
 name: Alberto Merola
 img: /assets/img/AM.jpg 
 affiliation: AICURA medical GmbH
-minibio: Alberto is Head of Data Science at AICURA medical, where he and his team are working on a secure and scalable runtime environment for AI algorithms. His exoertise is in machine learning and neuroimaging.
+minibio: Alberto is Head of Data Science at AICURA medical, where he and his team are working on a secure and scalable runtime environment for AI algorithms. His expertise is in machine learning and neuroimaging.
 mail: alberto.merola@aicura-medical.com
 website: https://aicura-medical.com/en/
 twitter: 

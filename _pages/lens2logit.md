@@ -8,18 +8,14 @@ nav-order: b
 date: YYYY-MM-DD
 
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+  - name: Luis Oala
+    url: "https://luisoala.net/"
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
+      name: Fraunhofer HHI, ITU/WHO FG-AI4H
+  - name: XYZ
     url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
     affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
+      name: XYZ
 
 bibliography: 2018-12-22-distill.bib
 

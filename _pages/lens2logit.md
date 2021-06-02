@@ -3,6 +3,8 @@ layout: distill
 permalink: /lens2logit/
 title: From Lens to Logit
 description: an example of a distill-style blog post and main elements
+nav: false
+nav-order: b
 date: 2018-12-22
 
 authors:

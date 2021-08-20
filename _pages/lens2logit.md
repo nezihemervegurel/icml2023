@@ -8,10 +8,10 @@ nav-order: b
 date: YYYY-MM-DD
 
 authors:
-  - name: Luis Oala
-    url: "https://luisoala.net/"
+  - name: Hellow world
+    url: "..."
     affiliations:
-      name: Fraunhofer HHI, ITU/WHO FG-AI4H
+      name: ...
   - name: XYZ
     url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
     affiliations:

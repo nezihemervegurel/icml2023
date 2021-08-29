@@ -5,17 +5,57 @@ title: From Lens to Logit
 description: Data Processing Considerations for Machine Learning with Optical Data
 nav: false
 nav-order: b
-date: YYYY-MM-DD
+date: 2021-08-27
 
 authors:
-  - name: Hellow world
-    url: "..."
+  - name: Luis Oala
+    url: "https://luisoala.net/"
     affiliations:
-      name: ...
-  - name: XYZ
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+      name: Fraunhofer HHI
+  - name: Marco Aversa
+    url: "https://aiaudit.org/lens2logit/"
     affiliations:
-      name: XYZ
+      name: University of Glasgow
+  - name: Kurt Willis
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Fraunhofer HHI
+  - name: Gabriel Nobis
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Fraunhofer HHI
+  - name: Yoan Neuenschwander
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: HEPIA/HES-SO
+  - name: Michèle Buck
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Klinikum rechts der Isar
+  - name: Christian Matek
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Helmholtz Zentrum Munich
+  - name: Jérôme Extermann
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: HEPIA/HES-SO
+  - name: Enrico Pomarico
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: HEPIA/HES-SO
+  - name: Roderick Murray-Smith
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: University of Glasgow
+  - name: Christoph Clausen
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Dotphoton AG
+  - name: Bruno Sanguinetti
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Dotphoton AG
 
 bibliography: 2018-12-22-distill.bib
 
@@ -48,6 +88,6 @@ The data is published under a [Attribution 4.0 International (CC BY 4.0)](https:
 The authors bear all responsibility for the published data.
 ## Code
 ### Access
-All code is available at the [lens2logit repository](https://github.com/aiaudit-org/lens2logit)
+All code is available at the [lens2logit repository](https://github.com/aiaudit-org/lens2logit).
 ### License
 The code is published under [MIT license](https://choosealicense.com/licenses/mit/) which permits broad commercial use, distribution, modification and private use.

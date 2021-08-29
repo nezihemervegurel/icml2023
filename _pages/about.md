@@ -28,5 +28,5 @@ This site is the group's interface to present and organize its work. We maintain
 
 # Calendar
 <div class="calendar-container">
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%237986CB&amp;ctz=Europe%2FBerlin&amp;src=YWlhdWRpdG9yZ0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;title=AI%20Audit%20Weekly%20Meetings" style="border:solid 1px #777" width="{{ site.max_width  }}" height="600" frameborder="0" scrolling="yes"></iframe>
+    <iframe src="http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/" style="border:solid 1px #777" width="{{ site.max_width  }}" height="600" frameborder="0" scrolling="yes"></iframe>
 </div>

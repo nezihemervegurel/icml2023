@@ -93,15 +93,15 @@ _styles: >
 ##
 ##
 --->
-# Data
-## Access
+## Data
+### Access
 If you use our code you can use the convenient cloud storage integration. Data will be loaded automatically.
 We also maintain a copy of the entire dataset with a persistent and permanent identifier at Zenodo which you can find under identifier 10.5281/zenodo.5235536
-## License
+### License
 The data is published under a [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) which allows liberal copying, redistribution, remixing and transformation.
 The authors bear all responsibility for the published data.
-# Code
-## Access
+## Code
+### Access
 All code is available at the [lens2logit repository](https://github.com/aiaudit-org/lens2logit).
-## License
+### License
 The code is published under [MIT license](https://choosealicense.com/licenses/mit/) which permits broad commercial use, distribution, modification and private use.

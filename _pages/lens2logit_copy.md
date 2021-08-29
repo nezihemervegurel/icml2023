@@ -1,6 +1,6 @@
 ---
 layout: distill
-permalink: /lens2logit/
+permalink: /lens2logit-copy/
 title: From Lens to Logit
 description: Data Processing Considerations for Machine Learning with Optical Data
 nav: false

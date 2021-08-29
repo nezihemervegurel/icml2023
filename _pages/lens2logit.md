@@ -121,7 +121,7 @@ The static processing pipeline allows us to generate different views of the same
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Cross-validation results are provided for both blood smears and drone datasets for 12 different processing pipelines. Each point is the average metrics value, with its standard deviation, over 5 k-fold dataset splitting. (Left) Models trained on a selected image processing configuration are evaluated on a different pipeline.  To understand critical hardware-shift drops, metrics values need to be compared with reference values on the diagonal where the model is trained and tested on the same pipeline. For the microscopy case we have a drop in performance for one particular configuration (ma,s,me) while in the drone case there is a more heterogeneous pattern. (Right) Models trained on different processing pipelines are evaluated with with common corruptions benchmark at severity 3. Similar results are obtained for different hardware-shift configurations.
 </div>
 
 <div class="row mt-3">
@@ -130,7 +130,7 @@ The static processing pipeline allows us to generate different views of the same
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Worst case train/test pipelines are compared. In both cases, our model leaked in performances with small changes on RGB channels. (Top) For the blood smears dataset, train/test pipeline shown are respectively me, u, me and ma, s, ga. We measured a 33% metrics (IoU/Accuracy) drop respect to the training pipeline. (Bottom) For the drone dataset, the model has been trained with ma, s, ga and tested with bi, u, me giving an average 20% drop. 
 </div>
 
 ### Hardware-drift forensics
@@ -140,7 +140,8 @@ The static processing pipeline allows us to generate different views of the same
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Attained accuracy on the test set after 20 epochs of adversarial optimization of the processing pipeline for varying regularization weight parameter $\lambda$. 
+    The individual plots depict the various pipeline parameter selections.
 </div>
 ### Image processing customization
 <div class="row mt-3">
@@ -149,7 +150,7 @@ The static processing pipeline allows us to generate different views of the same
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Low intensity images processed by a static and a learned pipeline. The plots in the rightmost column display the mean of validation metrics over five cross validation runs. Error bars are reported as one standard deviation. Optimization step 1439 and 915 correspond to epoch 60 into training.
 </div>
 ## Resources
 ### Data

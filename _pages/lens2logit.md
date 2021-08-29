@@ -103,7 +103,7 @@ The static processing pipeline allows us to generate different views of the same
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Static processing variations on the Raw Microscopy dataset.
 </div>
 
 <div class="row mt-3">
@@ -112,7 +112,7 @@ The static processing pipeline allows us to generate different views of the same
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+     Static processing variations on the Raw Drone dataset.
 </div>
 
 <div class="row mt-3">

@@ -80,28 +80,53 @@ _styles: >
 ---
 <!---[**Code**](https://github.com/aiaudit-org/lens2logit)--->
 <!---[**Data**](https://github.com/aiaudit-org/lens2logit/blob/master/utils/base.py)--->
+<!---[**Interactive experiment browser**](http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/)--->
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/pmflow8.png" data-zoomable>
     </div>
 </div>
-<div class="caption">
-    Scheme of the imaging pipeline, from the sample x to the result of a machine learning (ML) task. The measurement process yields metrologically accurate raw data, where the errors on each pixel are uncorrelated and unbiased. This data undergoes Image Signal Processing (ISP) before being used in an ML pipeline. The gradient flows all the way back to this raw data. The measurement process is modeled to simulate different measurement conditions, such as lower illumination. We demonstrate this pipeline in three applications: (1) to synthesize drift test-cases, (2) to study the effect of drift on the specific ML task, and (3) to optimize image processing to the task.
+To create an image, raw sensor data traverses complex image signal processing pipelines. These pipelines are used by cameras and scientific instruments to produce the images fed into machine learning systems. The processing pipelines vary by device, influencing the resulting image statistics and ultimately contributing to what is known as hardware-drift. However, this processing is rarely considered in machine learning modelling, because available benchmark data sets are generally not in raw format. Here we show that pairing qualified raw sensor data with an explicit, differentiable model of the image processing pipeline allows to tackle camera hardware-drift. Specifically, we demonstrate (1) the controlled synthesis of hardware-drift test cases, (2) modular hardware-drift forensics, as well as (3) image processing customization. We make available two data sets. The first, Raw-Microscopy, contains 940 raw bright-field microscopy images of human blood smear slides for leukocyte classification alongside 5,640 variations measured at six different intensities and twelve additional sets totalling 11,280 images of the raw sensor data processed through different pipelines. The second, Raw-Drone, contains 548 raw drone camera images for car segmentation, alongside 3,288 variations measured at six different intensities and also twelve additional sets totalling 6,576 images of the raw sensor data processed through different pipelines.
+## Methods
+## Raw data
+### Raw Microscopy
+Assessment of blood smears under a light microscope is a key diagnostic technique\cite{Bain2005}. The creation of image datasets and machnine learning models on them has received wide interest in recent years \cite{Scotti2011, Matek2019, Ayyappan2020}. Here, we use a bright-field microscope to image blood smear cytopathology samples. The light source is a halogen lamp equipped with a 0.55 NA condenser, and a pre-centred field diaphragm unit. We use filters at 450 nm, 525 nm and 620 nm to acquire the blue, green and red channels respectively. The condenser is followed by a $$40 \times$$ objective with 0.95 NA (Olympus UPLXAPO40X). Slides can be moved via a piezo with 1 nm spatial resolution, in the three directions. We focus by maximizing the variance of the pixel values. Images are acquired is 16 bit, with a 2560 $$\times$$ 2160 pixels CMOS sensor (PCO edge 5.5). We measured the PSF to be 450 nm with 100 nm nanospheres. Mechanical drift was measured at 0.4 pixels per hour. Imaging was performed on de-identified human blood smear slides (Ma190c Lieder, J. Lieder GmbH & Co. KG, Ludwigsburg/Germany). All slides were taken from healthy humans without known hematologic pathology. Imaging regions were selected to contain single leukoytes in order to allow unique labelling of image patches, and regions were cropped to 256 $$\times$$ 256 pixels. All images were annotated by a trained hematological cytologist using the standard scheme of normal leukocytes comprising band and segmented neutrophils, typical and atypical lymphocytes, monocytes, eosinophils and basophils \cite{longanbach2016rodak}. To soften class imbalance, candidates for rare normal leukocyte types were preferentially imaged, and enrich rare classes. Additionally, two classes for debris and smudge cells, as well as cells of unclear morphology were included. Labelling took place for all imaged cells from a particular smear at a time, with single-cell patches shown in random order. RI are generated using JetRaw Data Suite features. Blue, red and green channels are metrologically rescaled independently in intensity to simulate a standard RGB camera condition. From each channel, some pixels are discarded complementary on each channel in order to obtain a Bayer filter pattern.
+### Raw Drone
+We used a DJI Mavic 2 Pro Drone, equipped with a Hasselblad L1D-20c camera (Sony IMX183 sensor) having $$\SI{2.4}{\micro m}$$ pixels in Bayer filter array. The objective has a focal length of $$\SI{10.3}{mm}$$. We set the f-number $$N=8$$, to emulate the PSF circle diameter relative to the pixel pitch and ground sampling distance (GSD) as would be found on images from high-resolution satellites. The point-spread function (PSF) was measured to have a circle diameter of $$\SI{12.5}{\micro m}$$. This corresponds to a diffraction-limited system, within the uncertainty dominated by the wavelength spread of the image. Images were taken at $$\SI{200}{ISO}$$, a gain of $$\SI{0.528}{DN}/e^-$$. The 12-bit pixel values are however left-justified to 16-bits, so that the gain on the 16-bit numbers is $$\SI{8.448}{DN}/e^-$$. The images were taken at a height of $$\SI{250}{m}$$, so that the GSD is $$\SI{6}{cm}$$. All images were tiled in 256  $$\times$$ 256 patches. Segmentation color masks were created to identify cars for each patch. From this mask, classification labels were generated to detect if there is a car in the image. The dataset is constituted by 548 images for the segmentation task, and 930 for classification. The dataset is augmented through JetRaw Data Suite, with 7 different intensity scales. 
+
+## Applications
+### Controlled synthesis of hardware-drift test cases
+The static processing pipeline allows us to generate different views of the same dataset for hardware-drift testing. We evaluate the performance of two task models under twelve different image processing configurations:
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/ABpipelines_Microscopy.png" data-zoomable>
+    </div>
 </div>
-<!---# Applications
-##
-##
-##
---->
-## Data
-### Access
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/ABpipelines_Drone.png" data-zoomable>
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
+### Hardware-drift forensics
+### Image processing customization
+## Resources
+### Data
+#### Access
 If you use our code you can use the convenient cloud storage integration. Data will be loaded automatically.
 We also maintain a copy of the entire dataset with a persistent and permanent identifier at Zenodo which you can find under identifier 10.5281/zenodo.5235536
-### License
+#### License
 The data is published under a [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) which allows liberal copying, redistribution, remixing and transformation.
 The authors bear all responsibility for the published data.
-## Code
-### Access
+### Code
+#### Access
 All code is available at the [lens2logit repository](https://github.com/aiaudit-org/lens2logit).
-### License
+#### License
 The code is published under [MIT license](https://choosealicense.com/licenses/mit/) which permits broad commercial use, distribution, modification and private use.

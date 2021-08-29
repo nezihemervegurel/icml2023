@@ -83,7 +83,8 @@ _styles: >
 <!---[**Interactive experiment browser**](http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/)--->
 <!---<d-cite key="gregor2015draw"></d-cite>--->
 
-**This is an interactive companion to and resource collection for the manuscript ["From Lens to Logit: Addressing Camera Hardware-Drift Using Raw Sensor Data"](https://openreview.net/forum?id=DRAywM1BhU), submitted to the NeurIPS 2021 Datasets and Benchmarks Track.**
+*This is an interactive companion to and resource collection for the manuscript ["From Lens to Logit: Addressing Camera Hardware-Drift Using Raw Sensor Data"](https://openreview.net/forum?id=DRAywM1BhU), submitted to the NeurIPS 2021 Datasets and Benchmarks Track.*
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -116,24 +117,6 @@ We used a DJI Mavic 2 Pro Drone, equipped with a Hasselblad L1D-20c camera (Sony
 
 The second ingredient to our experiments is the image processing model which we describe next.
 
-## Lens2Logit - The image processing framework
-Let $(X,Y):\Omega \to \mathbb{R}^{H,W}\times \mathcal{Y}$ be the raw sensor data generating random variable on some probability space $(\Omega, \mathcal{F},\mathbb{P})$, with $\mathcal{Y}=\{0,1\}^{K}$ for classification and $\mathcal{Y}=\{0,1\}^{H,W}$ for segmentation. Let $\Phi_{Task}:\mathbb{R}^{C,H,W}\to\mathcal{Y}$ be the task model determined during training. The inputs that are given to the task model $\state{\F}{Task}$ are the outputs of the image signal processing (ISP). We distinguish between the raw sensor image $\boldsymbol{x}$ and a \textit{view} $\boldsymbol{v}=\state{\F}{Proc}(\boldsymbol{x})$ of this image, where $\state{\F}{Proc}\colon\R^{H,W}\to\R^{C,H,W}$ models the ISP. In contrast to the classical setting, this approach is more sensitive to the origin of distribution shifts, as outlined in our [formal companion](). We provide two explicit models for ISP: a static model $\Phi^{stat}\_{Proc}$ and a parametrized model $\Phi^{\theta}\_{Proc}$. 
-
-**The static pipeline**
-Following the most common steps in ISP, we define the *static pipeline* as the composition
-$$
-\begin{equation*}
-     \Phi^{stat}_{Proc} := \Phi_{GC} \circ \Phi_{DN}  \circ \Phi_{SH} \circ \Phi_{CC} \circ \Phi_{WB} \circ \Phi_{DM} \circ \Phi_{BL},
-\end{equation*}
-$$
-mapping a raw sensor image to a RGB image. The static pipeline enables us to create (multiple) different views of the same raw sensor data by manually changing the configurations of the intermediate steps. Fixing the continuous features, but varying $\Phi_{DM}$, $\Phi_{SH}$ and $\Phi_{DN}$ results in the twelve different views visible further down in this post. 
-For a detailed description of the static pipeline and its intermediate steps we refer to our [formal companion](). 
-
-**The parametrized pipeline** 
-For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image and is defined by $(\eqref{eq:param_pipeline})$. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion]().
-
-With raw data and and a controllable processing pipeline in our hands we are able to do interesting things. We can for example synthesize different realistic views from our raw sensor data (like the ones shown below), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/ABpipelines_Microscopy.png" data-zoomable>
@@ -151,6 +134,24 @@ With raw data and and a controllable processing pipeline in our hands we are abl
 <div class="caption">
      Static processing variations on the Raw Drone dataset.
 </div>
+
+## Lens2Logit - The image processing framework
+Let $(X,Y):\Omega \to \mathbb{R}^{H,W}\times \mathcal{Y}$ be the raw sensor data generating random variable on some probability space $(\Omega, \mathcal{F},\mathbb{P})$, with $\mathcal{Y}=\{0,1\}^{K}$ for classification and $\mathcal{Y}=\{0,1\}^{H,W}$ for segmentation. Let $\Phi_{Task}:\mathbb{R}^{C,H,W}\to\mathcal{Y}$ be the task model determined during training. The inputs that are given to the task model $\state{\F}{Task}$ are the outputs of the image signal processing (ISP). We distinguish between the raw sensor image $\boldsymbol{x}$ and a \textit{view} $\boldsymbol{v}=\state{\F}{Proc}(\boldsymbol{x})$ of this image, where $\state{\F}{Proc}\colon\R^{H,W}\to\R^{C,H,W}$ models the ISP. In contrast to the classical setting, this approach is more sensitive to the origin of distribution shifts, as outlined in our [formal companion](). We provide two explicit models for ISP: a static model $\Phi^{stat}\_{Proc}$ and a parametrized model $\Phi^{\theta}\_{Proc}$. 
+
+**The static pipeline**
+Following the most common steps in ISP, we define the *static pipeline* as the composition
+$$
+\begin{equation*}
+     \Phi^{stat}_{Proc} := \Phi_{GC} \circ \Phi_{DN}  \circ \Phi_{SH} \circ \Phi_{CC} \circ \Phi_{WB} \circ \Phi_{DM} \circ \Phi_{BL},
+\end{equation*}
+$$
+mapping a raw sensor image to a RGB image. The static pipeline enables us to create (multiple) different views of the same raw sensor data by manually changing the configurations of the intermediate steps. Fixing the continuous features, but varying $\Phi_{DM}$, $\Phi_{SH}$ and $\Phi_{DN}$ results in the twelve different views visible further down in this post. 
+For a detailed description of the static pipeline and its intermediate steps we refer to our [formal companion](). 
+
+**The parametrized pipeline** 
+For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion]().
+
+With raw data and and a controllable processing pipeline in our hands we are able to do interesting things. We can for example synthesize different realistic views from our raw sensor data (like the ones shown below), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
 
 <!---
 ## Applications

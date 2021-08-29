@@ -2,7 +2,7 @@
 layout: distill
 permalink: /lens2logit/
 title: From Lens to Logit
-description: Data Processing Considerations for Machine Learning with Optical Data
+description: Addressing Camera Hardware-Drift Using Raw Sensor Data
 nav: false
 nav-order: b
 date: 2021-08-27

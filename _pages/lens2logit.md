@@ -151,7 +151,7 @@ For a detailed description of the static pipeline and its intermediate steps we 
 **The parametrized pipeline** 
 For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion]().
 
-With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can for example synthesize different realistic views from our raw sensor data (like the ones shown below), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
+With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can synthesize different realistic views from our raw sensor data (like the ones shown below), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
 
 <!---
 ## Applications

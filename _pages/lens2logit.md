@@ -86,7 +86,7 @@ _styles: >
     </div>
 </div>
 <div class="caption">
-    Scheme of the imaging pipeline, from the sample **x** to the result of a machine learning (ML) task. The measurement process yields metrologically accurate raw data, where the errors on each pixel are uncorrelated and unbiased. This data undergoes Image Signal Processing (ISP) before being used in an ML pipeline. The gradient flows all the way back to this raw data. The measurement process is modeled to simulate different measurement conditions, such as lower illumination. We demonstrate this pipeline in three applications: (1) to synthesize drift test-cases, (2) to study the effect of drift on the specific ML task, and (3) to optimize image processing to the task.
+    Scheme of the imaging pipeline, from the sample x to the result of a machine learning (ML) task. The measurement process yields metrologically accurate raw data, where the errors on each pixel are uncorrelated and unbiased. This data undergoes Image Signal Processing (ISP) before being used in an ML pipeline. The gradient flows all the way back to this raw data. The measurement process is modeled to simulate different measurement conditions, such as lower illumination. We demonstrate this pipeline in three applications: (1) to synthesize drift test-cases, (2) to study the effect of drift on the specific ML task, and (3) to optimize image processing to the task.
 </div>
 <!---# Applications
 ##

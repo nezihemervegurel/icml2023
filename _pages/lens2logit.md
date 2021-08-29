@@ -107,7 +107,7 @@ Given $\state{\view}{\acrshort{dm}}$, intensities are adjusted to obtain a neutr
 Once lighting and colors are corrected, a \textit{sharpening} algorithm $\state{\F}{\acrshort{sh}}$ is applied to reduce image blurriness. This transformation lets the image appear more noisy. For this reason a \textit{denoising} algorithm  $\state{\F}{\acrshort{dn}}$ is applied afterwards \cite{goyal2020image,tian2020deep}. Finally,  \textit{gamma correction},  $\state{\F}{\acrshort{gc}}$, adjusts the linearity of the pixel values. For a precise description of these transformations, see \ref{subsubsec:the_static_pipeline}.
 --->
 
-In order to explore the potential to address drift via the interaction between raw sensor data and a differentiable image processing model we first require raw sensor data. In the following we explain how the Raw-Microscopy and Raw-Drone datasets were collected for this study.
+In order to address camera hardware-drift we require two ingredients: **raw sensor data** and an **image processing model**. In the following we explain how the Raw-Microscopy and Raw-Drone datasets were collected for this study and how the processing model is built.
 
 ## Raw data
 ### Raw-Microscopy
@@ -115,7 +115,7 @@ Assessment of blood smears under a light microscope is a key diagnostic techniqu
 ### Raw-Drone
 We used a DJI Mavic 2 Pro Drone, equipped with a Hasselblad L1D-20c camera (Sony IMX183 sensor) having 2.4 $\micro$m pixels in Bayer filter array. The objective has a focal length of 10.3 mm. We set the f-number $$N=8$$, to emulate the PSF circle diameter relative to the pixel pitch and ground sampling distance (GSD) as would be found on images from high-resolution satellites. The point-spread function (PSF) was measured to have a circle diameter of 12.5$\micro$m. This corresponds to a diffraction-limited system, within the uncertainty dominated by the wavelength spread of the image. Images were taken at 200 ISO, a gain of 0.528 DN/$e^-$. The 12-bit pixel values are however left-justified to 16-bits, so that the gain on the 16-bit numbers is 8.448 DN/$e^-$. The images were taken at a height of 250 m, so that the GSD is 6 cm. All images were tiled in 256  $$\times$$ 256 patches. Segmentation color masks were created to identify cars for each patch. From this mask, classification labels were generated to detect if there is a car in the image. The dataset is constituted by 548 images for the segmentation task, and 930 for classification. The dataset is augmented through JetRaw Data Suite, with 7 different intensity scales.
 
-The second ingredient to our experiments is the image processing model which we describe next.
+The second ingredient to our experiments is the **image processing model** which we describe next.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -151,7 +151,7 @@ For a detailed description of the static pipeline and its intermediate steps we 
 **The parametrized pipeline** 
 For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion]().
 
-With raw data and and a controllable processing pipeline in our hands we are able to do interesting things. We can for example synthesize different realistic views from our raw sensor data (like the ones shown below), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
+With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can for example synthesize different realistic views from our raw sensor data (like the ones shown below), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
 
 <!---
 ## Applications

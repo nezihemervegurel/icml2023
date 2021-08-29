@@ -8,11 +8,11 @@ nav-order: b
 date: 2021-08-27
 
 authors:
-  - name: Luis Oala
+  - name: Luis Oala*
     url: "https://luisoala.net/"
     affiliations:
       name: Fraunhofer HHI
-  - name: Marco Aversa
+  - name: Marco Aversa*
     url: "https://aiaudit.org/lens2logit/"
     affiliations:
       name: University of Glasgow
@@ -56,6 +56,7 @@ authors:
     url: "https://aiaudit.org/lens2logit/"
     affiliations:
       name: Dotphoton AG
+  - name: *equal contribution
 
 bibliography: 2018-12-22-distill.bib
 

@@ -166,3 +166,9 @@ The authors bear all responsibility for the published data.
 All code is available at the [lens2logit repository](https://github.com/aiaudit-org/lens2logit).
 #### License
 The code is published under [MIT license](https://choosealicense.com/licenses/mit/) which permits broad commercial use, distribution, modification and private use.
+### Virtual lab log
+We maintain a collaborative virtual lab log at [this address](http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/). There you can browse experiment runs, analyze results through SQL queries and download trained processing and task models.
+
+<div class="calendar-container">
+    <iframe src="http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/" style="border:solid 1px #777" width="{{ site.max_width  }}" height="600" frameborder="0" scrolling="yes"></iframe>
+</div>

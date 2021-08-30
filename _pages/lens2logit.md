@@ -78,7 +78,7 @@ _styles: >
   }
 
 ---
-[**Code**](https://github.com/aiaudit-org/lens2logit)
+**Code:**[![CODE](https://img.shields.io/static/v1.svg?label=github&message=lens2logit&color=red)](https://github.com/aiaudit-org/lens2logit)
 
 **Data:**[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5235536.svg)](https://doi.org/10.5281/zenodo.5235536)
 

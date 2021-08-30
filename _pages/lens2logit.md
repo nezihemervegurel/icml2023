@@ -79,7 +79,9 @@ _styles: >
 
 ---
 [**Code**](https://github.com/aiaudit-org/lens2logit)
+
 **Data:**[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5235536.svg)](https://doi.org/10.5281/zenodo.5235536)
+
 [**Interactive experiment browser**](http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/)
 <!---<d-cite key="gregor2015draw"></d-cite>--->
 

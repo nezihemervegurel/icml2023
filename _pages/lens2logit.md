@@ -215,7 +215,7 @@ The static processing pipeline allows us to generate different views of the same
 ### Data
 #### Access
 If you use our code you can use the convenient cloud storage integration. Data will be loaded automatically.
-We also maintain a copy of the entire dataset with a persistent and permanent identifier at Zenodo which you can find under identifier 10.5281/zenodo.5235536.
+We also maintain a copy of the entire dataset with a persistent and permanent identifier at Zenodo which you can find under identifier [10.5281/zenodo.5235536](https://doi.org/10.5281/zenodo.5235536).
 #### License
 The data is published under a [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) which allows liberal copying, redistribution, remixing and transformation.
 The authors bear all responsibility for the published data.
@@ -232,3 +232,4 @@ We maintain a collaborative virtual lab log at [this address](http://deplo-mlflo
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/mlflow.png" data-zoomable>
     </div>
 </div>
+ 

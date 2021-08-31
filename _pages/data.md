@@ -1,9 +1,61 @@
 ---
 layout: distill
 permalink: /lens2logit/data/
-title: From Lens to Logit: Data
+title: From Lens to Logit - Data
+description:
 nav: false
 nav-order: b
+date: 2021-08-27
+
+authors:
+  - name: Luis Oala
+    url: "https://luisoala.net/"
+    affiliations:
+      name: Fraunhofer HHI
+  - name: Marco Aversa
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: University of Glasgow
+  - name: Kurt Willis
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Fraunhofer HHI
+  - name: Gabriel Nobis
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Fraunhofer HHI
+  - name: Yoan Neuenschwander
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: HEPIA/HES-SO
+  - name: Michèle Buck
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Klinikum rechts der Isar
+  - name: Christian Matek
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Helmholtz Zentrum Munich
+  - name: Jérôme Extermann
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: HEPIA/HES-SO
+  - name: Enrico Pomarico
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: HEPIA/HES-SO
+  - name: Roderick Murray-Smith
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: University of Glasgow
+  - name: Christoph Clausen
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Dotphoton AG
+  - name: Bruno Sanguinetti
+    url: "https://aiaudit.org/lens2logit/"
+    affiliations:
+      name: Dotphoton AG
 
 bibliography: lens2logit.bib
 

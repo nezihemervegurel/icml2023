@@ -94,8 +94,8 @@ The dataset Raw-Microscopy contains:
 * **11,280 images of the raw sensor data processed through twelve different pipelines**.
 
 
-| Property | value |
-| :-------------: |:-------------:|
+| Property | Value |
+| ------------- | -------------:|
 | Types of instances | image and label |
 | Objects on images | white blood cells |
 | Type of classes | morphological classes |
@@ -104,8 +104,8 @@ The dataset Raw-Microscopy contains:
 | Image size | 256 by 256 pixels |
 | Image format | tiff |
 
-| class | proportion |
-| :-------------: |:-------------:|
+| Class | Proportion |
+| ------------- | -------------:|
 | Basophil (BAS) | 1.91 %  |
 | Eosinophil (EOS) | 5.74 % |
 | Smudge cell / debris (KSC) | 17.34 % |
@@ -155,7 +155,7 @@ The dataset Raw-Drone contains:
 * **6,576 images of the raw sensor data processed through twelve different pipelines**.
 
 | Property | value |
-| :-------------: |:-------------:|
+| ------------- | -------------:|
 | Types of instances | image and mask |
 | Objects on images | landscape shots from above |
 | Number of instances | 548 |

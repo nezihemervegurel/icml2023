@@ -147,12 +147,12 @@ $$
 mapping a raw sensor image to a RGB image. The static pipeline enables us to create (multiple) different views of the same raw sensor data by manually changing the configurations of the intermediate steps. Fixing the continuous features, but varying $\Phi_{DM}$, $\Phi_{SH}$ and $\Phi_{DN}$ results in the twelve different views visible further down in this post. 
 For a detailed description of the static pipeline and its intermediate steps we refer to our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf). 
 
+<iframe src="https://gradio.app/g/aiaudit-org/lens2logit" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:1200px;width:100%;border:none;overflow:hidden;"></iframe>
+
 **The parametrized pipeline** 
 For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf).
 
 With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can synthesize different realistic views from our raw sensor data (like the ones shown below), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
-
-<iframe src="https://gradio.app/g/aiaudit-org/lens2logit" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:900px;width:100%;border:none;overflow:hidden;"></iframe>
 
 
 <!---

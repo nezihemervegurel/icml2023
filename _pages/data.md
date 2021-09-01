@@ -154,7 +154,7 @@ The dataset Raw-Drone contains:
 * **3,288 variations** measured at **six** additional **different intensities** and
 * **6,576 images of the raw sensor data processed through twelve different pipelines**.
 
-| Property | value |
+| Property | Value |
 | ------------- | -------------:|
 | Types of instances | image and mask |
 | Objects on images | landscape shots from above |

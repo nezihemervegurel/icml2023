@@ -90,6 +90,7 @@ _styles: >
     </div>
 </div>
 
+
 To create an image, raw sensor data traverses complex image signal processing pipelines. These pipelines are used by cameras and scientific instruments to produce the images fed into machine learning systems. The processing pipelines vary by device, influencing the resulting image statistics and ultimately contributing to what is known as hardware-drift. However, this processing is rarely considered in machine learning modelling, because available benchmark data sets are generally not in raw format. Here we show that pairing qualified raw sensor data with an explicit, differentiable model of the image processing pipeline allows to tackle camera hardware-drift. Specifically, we demonstrate (1) the controlled synthesis of hardware-drift test cases, (2) modular hardware-drift forensics, as well as (3) image processing customization. We make available two data sets. The first, Raw-Microscopy, contains 940 raw bright-field microscopy images of human blood smear slides for leukocyte classification alongside 5,640 variations measured at six different intensities and twelve additional sets totalling 11,280 images of the raw sensor data processed through different pipelines. The second, Raw-Drone, contains 548 raw drone camera images for car segmentation, alongside 3,288 variations measured at six different intensities and also twelve additional sets totalling 6,576 images of the raw sensor data processed through different pipelines.
 
 <!---## Preliminaries: How an image is made
@@ -134,7 +135,7 @@ The second ingredient to our experiments is the **image processing model** which
 </div>
 
 ## Lens2Logit - The image processing framework
-Let $(X,Y):\Omega \to \mathbb{R}^{H,W}\times \mathcal{Y}$ be the raw sensor data generating random variable on some probability space $(\Omega, \mathcal{F},\mathbb{P})$, with $\mathcal{Y}=\{0,1\}^{K}$ for classification and $\mathcal{Y}=\{0,1\}^{H,W}$ for segmentation. Let $\Phi_{Task}:\mathbb{R}^{C,H,W}\to\mathcal{Y}$ be the task model determined during training. The inputs that are given to the task model $\state{\F}{Task}$ are the outputs of the image signal processing (ISP). We distinguish between the raw sensor image $\boldsymbol{x}$ and a \textit{view} $\boldsymbol{v}=\state{\F}{Proc}(\boldsymbol{x})$ of this image, where $\state{\F}{Proc}\colon\R^{H,W}\to\R^{C,H,W}$ models the ISP. In contrast to the classical setting, this approach is more sensitive to the origin of distribution shifts, as outlined in our [formal companion](). We provide two explicit models for ISP: a static model $\Phi^{stat}\_{Proc}$ and a parametrized model $\Phi^{\theta}\_{Proc}$. 
+Let $(X,Y):\Omega \to \mathbb{R}^{H,W}\times \mathcal{Y}$ be the raw sensor data generating random variable on some probability space $(\Omega, \mathcal{F},\mathbb{P})$, with $\mathcal{Y}=\{0,1\}^{K}$ for classification and $\mathcal{Y}=\{0,1\}^{H,W}$ for segmentation. Let $\Phi_{Task}:\mathbb{R}^{C,H,W}\to\mathcal{Y}$ be the task model determined during training. The inputs that are given to the task model $\state{\F}{Task}$ are the outputs of the image signal processing (ISP). We distinguish between the raw sensor image $\boldsymbol{x}$ and a \textit{view} $\boldsymbol{v}=\state{\F}{Proc}(\boldsymbol{x})$ of this image, where $\state{\F}{Proc}\colon\R^{H,W}\to\R^{C,H,W}$ models the ISP. In contrast to the classical setting, this approach is more sensitive to the origin of distribution shifts, as outlined in our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf). We provide two explicit models for ISP: a static model $\Phi^{stat}\_{Proc}$ and a parametrized model $\Phi^{\theta}\_{Proc}$. 
 
 **The static pipeline**
 Following the most common steps in ISP, we define the *static pipeline* as the composition
@@ -144,10 +145,10 @@ $$
 \end{equation*}
 $$
 mapping a raw sensor image to a RGB image. The static pipeline enables us to create (multiple) different views of the same raw sensor data by manually changing the configurations of the intermediate steps. Fixing the continuous features, but varying $\Phi_{DM}$, $\Phi_{SH}$ and $\Phi_{DN}$ results in the twelve different views visible further down in this post. 
-For a detailed description of the static pipeline and its intermediate steps we refer to our [formal companion](). 
+For a detailed description of the static pipeline and its intermediate steps we refer to our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf). 
 
 **The parametrized pipeline** 
-For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion]().
+For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf).
 
 With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can synthesize different realistic views from our raw sensor data (like the ones shown below), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
 

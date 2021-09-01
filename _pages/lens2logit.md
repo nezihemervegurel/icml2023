@@ -152,7 +152,7 @@ For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}
 
 With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can synthesize different realistic views from our raw sensor data (like the ones shown below), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
 
-<iframe src="https://gradio.app/g/aiaudit-org/lens2logit" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+<iframe src="https://gradio.app/g/aiaudit-org/lens2logit" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:900px;width:100%;border:none;overflow:hidden;"></iframe>
 
 
 <!---

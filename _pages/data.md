@@ -101,7 +101,7 @@ The dataset Raw-Microscopy contains:
 | Type of classes | morphological classes |
 | Number of instances | 940 |
 | Number of classes | 9 |
-| Image size | 256 by 256 |
+| Image size | 256 by 256 pixels |
 | Image format | tiff |
 
 | class | proportion |
@@ -153,11 +153,18 @@ The dataset Raw-Drone contains:
 * **3,288 variations** measured at **six** additional **different intensities** and
 * **6,576 images of the raw sensor data processed through twelve different pipelines**.
 
-| Composition of the Raw-Drone dataset| Test |
-| ------------- |:-------------:|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| Property | value |
+| :-------------: |:-------------:|
+| Types of instances | image and mask |
+| Objects on images | landscape shots from above |
+| Number of instances | 548 |
+| Number of original images | 12 |
+| Image size | 256 by 256 pixels |
+| Mask size | 256 by 256 pixels |
+| Original image size | 3648 by 5472 pixels |
+| Image format | tif |
+| Mask format | png |
+| Original image format | DNG |
 
 ### Data acquisition
 We used a DJI Mavic 2 Pro Drone, equipped with a Hasselblad L1D-20c camera (Sony IMX183 sensor) having 2.4 $\micro$m pixels in Bayer filter array. The objective has a focal length of 10.3 mm. We set the f-number $$N=8$$, to emulate the PSF circle diameter relative to the pixel pitch and ground sampling distance (GSD) as would be found on images from high-resolution satellites. The point-spread function (PSF) was measured to have a circle diameter of 12.5$\micro$m. This corresponds to a diffraction-limited system, within the uncertainty dominated by the wavelength spread of the image. Images were taken at 200 ISO, a gain of 0.528 DN/$e^-$. The 12-bit pixel values are however left-justified to 16-bits, so that the gain on the 16-bit numbers is 8.448 DN/$e^-$. The images were taken at a height of 250 m, so that the GSD is 6 cm. All images were tiled in 256  $$\times$$ 256 patches. Segmentation color masks were created to identify cars for each patch. From this mask, classification labels were generated to detect if there is a car in the image. The dataset is constituted by 548 images for the segmentation task, and 930 for classification. The dataset is augmented through JetRaw Data Suite, with 7 different intensity scales.

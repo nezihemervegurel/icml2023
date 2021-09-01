@@ -93,7 +93,7 @@ The dataset Raw-Microscopy contains:
 * **5,640 variations** measured at **six** additional **different intensities** and
 * **11,280 images of the raw sensor data processed through twelve different pipelines**.
 
-| :-------------:|
+| :-------------::-------------:|
 | Composition of the Raw-Microscopy dataset |
 | :-------------: |:-------------:|
 | Types of instances | image and label |

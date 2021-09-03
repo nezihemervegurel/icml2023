@@ -152,6 +152,26 @@ For a detailed description of the static pipeline and its intermediate steps we 
 **The parametrized pipeline** 
 For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf).
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/blood-medium.gif" data-zoomable>
+    </div>
+</div>
+<div class="caption">
+     Gradients (top row) and generated views (bottom row) over time for the parametrized pipeline on the Raw-Microscopy dataset with a downstream ResNet task model. Note that compression of the video files for faster online viewing creates artifacts. Original, uncompressed image files can be accessed through <a href="http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/experiments/60
+">the virtual lab log</a>.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/blood-medium.gif" data-zoomable>
+    </div>
+</div>
+<div class="caption">
+     Gradients (top row) and generated views (bottom row) over time for the parametrized pipeline on the Raw-Drone dataset with a downstream U-Net++ task model. Note that compression of the video files for faster online viewing creates artifacts. Original, uncompressed image files can be accessed through <a href="http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/experiments/60
+">the virtual lab log</a>.
+</div>
+
 With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can synthesize different realistic views from our raw sensor data (like the ones shown above), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
 
 

@@ -164,7 +164,7 @@ For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/blood-medium.gif" data-zoomable>
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/drone-medium.gif" data-zoomable>
     </div>
 </div>
 <div class="caption">

@@ -136,7 +136,7 @@ The second ingredient to our experiments is the **image processing model** which
 ## Lens2Logit - The image processing framework
 Let $(X,Y):\Omega \to \mathbb{R}^{H,W}\times \mathcal{Y}$ be the raw sensor data generating random variable on some probability space $(\Omega, \mathcal{F},\mathbb{P})$, with $\mathcal{Y}=\{0,1\}^{K}$ for classification and $\mathcal{Y}=\{0,1\}^{H,W}$ for segmentation. Let $\Phi_{Task}:\mathbb{R}^{C,H,W}\to\mathcal{Y}$ be the task model determined during training. The inputs that are given to the task model $\state{\F}{Task}$ are the outputs of the image signal processing (ISP). We distinguish between the raw sensor image $\boldsymbol{x}$ and a *view* $\boldsymbol{v}=\state{\F}{Proc}(\boldsymbol{x})$ of this image, where $\state{\F}{Proc}\colon\R^{H,W}\to\R^{C,H,W}$ models the ISP. In contrast to the classical setting, this approach is more sensitive to the origin of distribution shifts, as outlined in our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf). We provide two explicit models for ISP: a static model $\Phi^{stat}\_{Proc}$ and a parametrized model $\Phi^{\theta}\_{Proc}$. 
 
-**The static pipeline**
+### The static pipeline
 Following the most common steps in ISP, we define the *static pipeline* as the composition
 $$
 \begin{equation*}
@@ -148,8 +148,7 @@ For a detailed description of the static pipeline and its intermediate steps we 
 
 <iframe src="https://gradio.app/g/aiaudit-org/lens2logit" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:1200px;width:100%;border:none;overflow:hidden;"></iframe>
 
-
-**The parametrized pipeline** 
+### The parametrized pipeline
 For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf).
 
 <div class="row mt-3">

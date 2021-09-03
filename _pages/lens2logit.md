@@ -83,13 +83,12 @@ _styles: >
 
 *This is an interactive companion to and resource collection for the manuscript ["From Lens to Logit: Addressing Camera Hardware-Drift Using Raw Sensor Data"](https://openreview.net/forum?id=DRAywM1BhU), submitted to the NeurIPS 2021 Datasets and Benchmarks Track.*
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/lens2logit/pmflow8.png" data-zoomable>
     </div>
 </div>
-
+<br>
 
 To create an image, raw sensor data traverses complex image signal processing pipelines. These pipelines are used by cameras and scientific instruments to produce the images fed into machine learning systems. The processing pipelines vary by device, influencing the resulting image statistics and ultimately contributing to what is known as hardware-drift. However, this processing is rarely considered in machine learning modelling, because available benchmark data sets are generally not in raw format. Here we show that pairing qualified raw sensor data with an explicit, differentiable model of the image processing pipeline allows to tackle camera hardware-drift. Specifically, we demonstrate (1) the controlled synthesis of hardware-drift test cases, (2) modular hardware-drift forensics, as well as (3) image processing customization. We make available two data sets. The first, Raw-Microscopy, contains 940 raw bright-field microscopy images of human blood smear slides for leukocyte classification alongside 5,640 variations measured at six different intensities and twelve additional sets totalling 11,280 images of the raw sensor data processed through different pipelines. The second, Raw-Drone, contains 548 raw drone camera images for car segmentation, alongside 3,288 variations measured at six different intensities and also twelve additional sets totalling 6,576 images of the raw sensor data processed through different pipelines.
 
@@ -149,6 +148,7 @@ For a detailed description of the static pipeline and its intermediate steps we 
 
 <iframe src="https://gradio.app/g/aiaudit-org/lens2logit" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:1200px;width:100%;border:none;overflow:hidden;"></iframe>
 
+
 **The parametrized pipeline** 
 For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}$ maps from a parameter space $\Theta$ to a RGB image. The parametrized pipeline is differentiable wrt. the parameters in $\boldsymbol{\theta}$. This enables us to backpropagate the gradient from the output of the task model through the ISP back to the raw sensor image. You can find more details in our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf).
 
@@ -171,6 +171,7 @@ For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}
      Gradients (top row) and generated views (bottom row) over time for the parametrized pipeline on the Raw-Drone dataset with a downstream U-Net++ task model. Note that compression of the video files for faster online viewing creates artifacts. Original, uncompressed image files can be accessed through <a href="http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/experiments/60
 ">the virtual lab log</a>.
 </div>
+
 
 With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can synthesize different realistic views from our raw sensor data (like the ones shown above), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
 

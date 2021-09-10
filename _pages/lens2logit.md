@@ -56,7 +56,7 @@ authors:
     url: "https://aiaudit.org/lens2logit/"
     affiliations:
       name: Dotphoton AG
-  - name: <span>&#42;</span>*Equal contribution*
+  - name: <span>&#42;</span>Equal contribution
     url: ""
     affiliations:
       name:
@@ -161,7 +161,7 @@ For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}
     </div>
 </div>
 <div class="caption">
-     Gradients (top row) and generated views (bottom row) over time for the parametrized pipeline on the Raw-Microscopy dataset with a downstream ResNet task model. Note that compression of the video files for faster online viewing creates artifacts. Original, uncompressed image files can be accessed through <a href="http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/experiments/60
+     Gradients (top row) and generated views (bottom row) over time for the parametrized pipeline in order (demosaicing, color correction, sharpening, denoising, gamma correction) on the Raw-Microscopy dataset with a downstream ResNet task model. Note that compression of the video files for faster online viewing creates artifacts. Original, uncompressed image files can be accessed through <a href="http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/experiments/60
 ">the virtual lab log</a>.
 </div>
 
@@ -171,7 +171,7 @@ For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}
     </div>
 </div>
 <div class="caption">
-     Gradients (top row) and generated views (bottom row) over time for the parametrized pipeline on the Raw-Drone dataset with a downstream U-Net++ task model. Note that compression of the video files for faster online viewing creates artifacts. Original, uncompressed image files can be accessed through <a href="http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/experiments/60
+     Gradients (top row) and generated views (bottom row) over time for the parametrized pipeline in order (demosaicing, color correction, sharpening, denoising, gamma correction) on the Raw-Drone dataset with a downstream U-Net++ task model. Note that compression of the video files for faster online viewing creates artifacts. Original, uncompressed image files can be accessed through <a href="http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/experiments/60
 ">the virtual lab log</a>.
 </div>
 

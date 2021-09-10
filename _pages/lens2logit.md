@@ -266,6 +266,8 @@ We maintain a collaborative virtual lab log at [this address](http://deplo-mlflo
     </div>
 </div>
 
+<br>
+
 For better overview we include a map between the names of experiments in the paper and names of experiments in the virtual lab log:
 
 | Name of experiment in paper | Name of experiment in virtual lab log |
@@ -273,6 +275,5 @@ For better overview we include a map between the names of experiments in the pap
 | 5.1 Controlled synthesis of hardware-drift test cases | 1 Controlled synthesis of hardware-drift test cases (Train) , 1 Controlled synthesis of hardware-drift test cases (Test)|
 | 5.2 Modular hardware-drift forensics | 2 Modular hardware-drift forensics |
 | 5.3 Image processing customization | 3 Image processing customization (Microscopy), 3 Image processing customization (Drone) |
-
 Not that the virtual lab log includes many additional experiments.
  

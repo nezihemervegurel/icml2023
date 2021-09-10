@@ -56,7 +56,7 @@ authors:
     url: "https://aiaudit.org/lens2logit/"
     affiliations:
       name: Dotphoton AG
-  - name: <span>&#42;</span>Equal contribution
+  - name: <span>&#42;</span>*Equal contribution*
     url: ""
     affiliations:
       name:

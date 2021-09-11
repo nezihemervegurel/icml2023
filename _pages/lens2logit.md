@@ -275,5 +275,6 @@ For better overview we include a map between the names of experiments in the pap
 | 5.1 Controlled synthesis of hardware-drift test cases | 1 Controlled synthesis of hardware-drift test cases (Train) , 1 Controlled synthesis of hardware-drift test cases (Test)|
 | 5.2 Modular hardware-drift forensics | 2 Modular hardware-drift forensics |
 | 5.3 Image processing customization | 3 Image processing customization (Microscopy), 3 Image processing customization (Drone) |
-Not that the virtual lab log includes many additional experiments.
+
+Note that the virtual lab log includes many additional experiments.
  

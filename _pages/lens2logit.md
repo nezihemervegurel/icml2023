@@ -85,7 +85,7 @@ _styles: >
 **Code** [![CODE](https://img.shields.io/static/v1.svg?label=github&message=lens2logit&color=blue)](https://github.com/aiaudit-org/lens2logit) **Data** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5235536.svg)](https://doi.org/10.5281/zenodo.5235536) **Experiment server** [![CODE](https://img.shields.io/static/v1.svg?label=mlflow&message=lens2logit&color=blue)](http://deplo-mlflo-1ssxo94f973sj-890390d809901dbf.elb.eu-central-1.amazonaws.com/#/)
 <!---<d-cite key="gregor2015draw"></d-cite>--->
 
-*This is an interactive companion to and resource collection for the manuscript ["From Lens to Logit: Addressing Camera Hardware-Drift Using Raw Sensor Data"](https://openreview.net/forum?id=DRAywM1BhU), submitted to the NeurIPS 2021 Datasets and Benchmarks Track.*
+<!--- *This is an interactive companion to and resource collection for the manuscript ["From Lens to Logit: Addressing Camera Hardware-Drift Using Raw Sensor Data"](https://openreview.net/forum?id=DRAywM1BhU), submitted to the NeurIPS 2021 Datasets and Benchmarks Track.* --->
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -176,7 +176,8 @@ For a fixed raw sensor image, the *parametrized pipeline* $\Phi^{\theta}\_{Proc}
 </div>
 
 
-With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can synthesize different realistic views from our raw sensor data (like the ones shown above), perform hardware-drift forensics on machine learning model as well as customued image processing. If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you.
+With **raw data** and and a **controllable processing pipeline** in our hands we are able to do interesting things. We can synthesize different realistic views from our raw sensor data (like the ones shown above), perform hardware-drift forensics on machine learning model as well as customued image processing. 
+<!-- If you curious about these applications and our results the [full paper](https://openreview.net/forum?id=DRAywM1BhU) is for you. --->
 
 
 <!---

@@ -1,8 +1,8 @@
 ---
 layout: distill
 permalink: /lens2logit/
-title: From Lens to Logit
-description: Addressing Camera Hardware-Drift Using Raw Sensor Data
+title: From Raw to Logit
+description: Addressing ISP-Induced Camera Hardware-Drift Using Raw Sensor Data
 nav: false
 nav-order: b
 date: 2021-08-27

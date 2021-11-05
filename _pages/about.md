@@ -40,7 +40,7 @@ This site is the group's interface to present and organize its work. We maintain
         {% endif %}
         <div class="card-body">
           <h2 class="card-title">{{ contributor.name }}</h2>
-          <p class="card-title">{{ contributor.affiliation }}</p>
+          <!-- <p class="card-title">{{ contributor.affiliation }}</p> -->
           <p class="card-text">{{ contributor.minibio }}</p>
           <br/>
           <div class="row ml-1 mr-1 p-0">

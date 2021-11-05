@@ -22,7 +22,7 @@ Modern AI systems based on deep learning, reinforcement learning or hybrids ther
 
 This site is the group's interface to present and organize its work. We maintain information on current projects and their coordinates [on the project sites](https://aiaudit.org/workstreams/). We invite you to take a look. If you are interested to contribute or learn more about our modus operandi please [consult the join page](https://aiaudit.org/join/). We are committed to equitable collaboration. Project groups form in a self-organized way and are open to interested persons from research, companies, the general public or otherwise.
 
-## Current core activities
+<!-- ## Current core activities -->
 
 {% if page.news %}
   {% include news.html %}

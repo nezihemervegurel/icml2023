@@ -3,7 +3,7 @@ layout: page
 title: Workstreams
 permalink: /workstreams/
 description: An overview of ongoing projects in the aiaudit.org cooperative.
-nav: true
+nav: false
 nav-order: c
 ---
 

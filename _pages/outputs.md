@@ -4,7 +4,7 @@ permalink: /outputs/
 title: Outputs
 description: Here you can find a list of outputs related to AI auditing from the aiaudit.org network or its contributors.
 years: [2021, 2020]
-nav: true
+nav: false
 nav-order: b
 ---
 # Standardization

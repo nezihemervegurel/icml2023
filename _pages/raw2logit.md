@@ -1,11 +1,11 @@
 ---
 layout: distill
-permalink: /lens2logit/
-title: From Raw to Logit
-description: Addressing ISP-Induced Camera Hardware-Drift Using Raw Sensor Data
+permalink: /raw2logit/
+title: Dataset Drift Controls Using Raw Image Data and Differentiable ISPs
+description: From Raw to Logit
 nav: false
 nav-order: b
-date: 2021-08-27
+date: 2021-11-14
 
 authors:
   - name: Luis Oala<span>&#42;</span>
@@ -44,6 +44,10 @@ authors:
     url: "https://aiaudit.org/lens2logit/"
     affiliations:
       name: HEPIA/HES-SO
+  - name: Wojciech Samek
+    url: "http://iphome.hhi.de/samek/"
+    affiliations:
+      name: Fraunhofer HHI
   - name: Roderick Murray-Smith
     url: "https://aiaudit.org/lens2logit/"
     affiliations:

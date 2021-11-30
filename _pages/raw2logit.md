@@ -5,7 +5,7 @@ title: Dataset Drift Controls Using Raw Image Data and Differentiable ISPs
 description: From Raw to Logit
 nav: false
 nav-order: b
-date: 2021-11-14
+date: 2021-10-15
 
 authors:
   - name: Luis Oala<span>&#42;</span>
@@ -259,7 +259,7 @@ The data is published under a [Attribution 4.0 International (CC BY 4.0)](https:
 The authors bear all responsibility for the published data.
 ### Code
 #### Access
-All code is available at the [lens2logit repository](https://github.com/aiaudit-org/lens2logit).
+All code is available at the [raw2logit repository](https://github.com/aiaudit-org/raw2logit).
 #### License
 The code is published under [MIT license](https://choosealicense.com/licenses/mit/) which permits broad commercial use, distribution, modification and private use.
 ### Virtual lab log

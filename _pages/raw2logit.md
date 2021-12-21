@@ -13,35 +13,35 @@ authors:
     affiliations:
       name: Fraunhofer HHI
   - name: Marco Aversa<span>&#42;</span>
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: University of Glasgow
   - name: Kurt Willis
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: Fraunhofer HHI
   - name: Gabriel Nobis
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: Fraunhofer HHI
   - name: Yoan Neuenschwander
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: HEPIA/HES-SO
   - name: Michèle Buck
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: Klinikum rechts der Isar
   - name: Christian Matek
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: Helmholtz Zentrum Munich
   - name: Jérôme Extermann
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: HEPIA/HES-SO
   - name: Enrico Pomarico
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: HEPIA/HES-SO
   - name: Wojciech Samek
@@ -49,15 +49,15 @@ authors:
     affiliations:
       name: Fraunhofer HHI
   - name: Roderick Murray-Smith
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: University of Glasgow
   - name: Christoph Clausen
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: Dotphoton AG
   - name: Bruno Sanguinetti
-    url: "https://aiaudit.org/lens2logit/"
+    url: "https://aiaudit.org/raw2logit/"
     affiliations:
       name: Dotphoton AG
   - name: <span>&#42;</span>Equal contribution
@@ -141,7 +141,7 @@ The second ingredient to our experiments is the **image processing model** which
      Static processing variations on the Raw Drone dataset.
 </div>
 
-## Lens2Logit - The image processing framework
+## Raw2Logit - The image processing framework
 Let $(X,Y):\Omega \to \mathbb{R}^{H,W}\times \mathcal{Y}$ be the raw sensor data generating random variable on some probability space $(\Omega, \mathcal{F},\mathbb{P})$, with $\mathcal{Y}=\{0,1\}^{K}$ for classification and $\mathcal{Y}=\{0,1\}^{H,W}$ for segmentation. Let $\Phi_{Task}:\mathbb{R}^{C,H,W}\to\mathcal{Y}$ be the task model determined during training. The inputs that are given to the task model $\state{\F}{Task}$ are the outputs of the image signal processing (ISP). We distinguish between the raw sensor image $\boldsymbol{x}$ and a *view* $\boldsymbol{v}=\state{\F}{Proc}(\boldsymbol{x})$ of this image, where $\state{\F}{Proc}\colon\R^{H,W}\to\R^{C,H,W}$ models the ISP. In contrast to the classical setting, this approach is more sensitive to the origin of distribution shifts, as outlined in our [formal companion](https://github.com/aiaudit-org/website/blob/master/assets/pdf/lens2logit-formalcompanion.pdf). We provide two explicit models for ISP: a static model $\Phi^{stat}\_{Proc}$ and a parametrized model $\Phi^{\theta}\_{Proc}$. 
 
 ### The static pipeline

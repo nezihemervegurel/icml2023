@@ -16,7 +16,7 @@ footer_text: >
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url: https://datacentric-machine-learning-research.github.io/icml2023/ # the base hostname & protocol for your site
-baseurl: "" #"/website/" # the subpath of your site, e.g. /blog/
+baseurl: "/icml2023/" #"/website/" # the subpath of your site, e.g. /blog/
 repository: "icml2023" #aiaudit-org/website
 last_updated: false # set to true if you want to display last updated in the footer
 

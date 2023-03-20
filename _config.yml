@@ -6,7 +6,7 @@ title: DMLR # the website title (if blank, full name will be used instead)
 first_name: Data-centric Machine Learning Research (DMLR)
 middle_name:
 last_name: &nbsp ICML 2023 Workshop
-email: info@aiaudit.org
+email: contact@dmlr.org
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -16,7 +16,7 @@ footer_text: >
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url: https://datacentric-machine-learning-research.github.io/icml2023/ # the base hostname & protocol for your site
-baseurl: "/_site/" #"/website/" # the subpath of your site, e.g. /blog/
+baseurl: "" #"/website/" # the subpath of your site, e.g. /blog/
 repository: "icml2023" #aiaudit-org/website
 last_updated: false # set to true if you want to display last updated in the footer
 

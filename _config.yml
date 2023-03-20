@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: aiaudit.org # the website title (if blank, full name will be used instead)
-first_name: aiaudit
+title: DMLR # the website title (if blank, full name will be used instead)
+first_name: Data-centric Machine Learning Research (DMLR)
 middle_name:
-last_name: .org
+last_name: ICML 2023 Workshop
 email: info@aiaudit.org
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -15,7 +15,7 @@ footer_text: >
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-url:  https://aiaudit.org # the base hostname & protocol for your site
+url:  # the base hostname & protocol for your site
 baseurl: "" #"/website/" # the subpath of your site, e.g. /blog/
 repository: "" #aiaudit-org/website
 last_updated: false # set to true if you want to display last updated in the footer
@@ -43,8 +43,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: aiaudit-org # your GitHub user name
-twitter_username: # your Twitter handle
+github_username: datacentric-machine-learning-research # your GitHub user name
+twitter_username: dmlr # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID

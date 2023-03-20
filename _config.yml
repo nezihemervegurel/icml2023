@@ -5,7 +5,7 @@
 title: DMLR # the website title (if blank, full name will be used instead)
 first_name: Data-centric Machine Learning Research (DMLR)
 middle_name:
-last_name: ICML 2023 Workshop
+last_name: &nbsp ICML 2023 Workshop
 email: info@aiaudit.org
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.

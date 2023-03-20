@@ -15,9 +15,9 @@ footer_text: >
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-url:  # the base hostname & protocol for your site
+url: https://datacentric-machine-learning-research.github.io/icml2023/ # the base hostname & protocol for your site
 baseurl: "" #"/website/" # the subpath of your site, e.g. /blog/
-repository: "" #aiaudit-org/website
+repository: "icml2023" #aiaudit-org/website
 last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------

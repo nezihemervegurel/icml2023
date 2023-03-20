@@ -19,3 +19,7 @@ social: false  # includes social icons at the bottom of the page
 {% if page.news %}
   {% include news.html %}
 {% endif %}
+
+<div class='jekyll-twitter-plugin' align="center">
+    {% twitter https://twitter.com/icmlconf maxwidth=1000 limit=5 %}
+</div>

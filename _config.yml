@@ -127,6 +127,7 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-gist
   # - bootstrap
   # - material-sass
 

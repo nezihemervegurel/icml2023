@@ -1,14 +1,9 @@
 ---
-layout: distill
+layout: page
 title: Program
 permalink: /program/
 nav: true
 nav-order: 3
-date: 2023-03-16
-authors:
-  - name: Organizers
-    affiliations:
-      name: DMLR
 ---
 | Start | End | Content | In-person | Virtual |
 |:---:|:---:|:---:|:---:|:---:|

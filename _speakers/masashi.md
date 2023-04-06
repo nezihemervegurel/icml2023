@@ -2,8 +2,7 @@
 layout: contributor
 name: Masashi Sugiyama
 img: /assets/img/masashi.jpg
-affiliation: University of Tokyo and RIKEN
-Center for Advanced Intelligence Project (AIP)
+affiliation: University of Tokyo and RIKEN Center for Advanced Intelligence Project (AIP)
 minibio: Professor and Director
 mail: 
 website: http://www.ms.k.u-tokyo.ac.jp/sugi/

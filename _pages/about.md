@@ -18,68 +18,68 @@ social: false  # includes social icons at the bottom of the page
 # Speakers
 <div class="projects grid">
 
-  {% assign sorted_contributors = site.speakers | sample:100 %}
-  {% for contributor in sorted_contributors %}
+  {% assign sorted_speakers = site.speakers | sample:100 %}
+  {% for speaker in sorted_speakers %}
   <div class="grid-item">
-    {% if contributor.redirect %}
-    <a href="{{ contributor.redirect }}" target="_blank">
+    {% if speaker.redirect %}
+    <a href="{{ speaker.redirect }}" target="_blank">
     {% else %}
-    <a href="{{ contributor.url | relative_url }}">
+    <a href="{{ speaker.url | relative_url }}">
     {% endif %}
       <div class="card hoverable">
-        {% if contributor.img %}
-        <img src="{{ contributor.img | relative_url }}" alt="contributor thumbnail">
+        {% if speaker.img %}
+        <img src="{{ speaker.img | relative_url }}" alt="speaker thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title">{{ contributor.name }}</h2>
-          <p class="card-title">{{ contributor.affiliation }}</p>
-          <p class="card-text">{{ contributor.minibio }}</p>
+          <h2 class="card-title">{{ speaker.name }}</h2>
+          <p class="card-title">{{ speaker.affiliation }}</p>
+          <p class="card-text">{{ speaker.minibio }}</p>
           <br/>
           <div class="row ml-1 mr-1 p-0">
-            {% if contributor.mail %}
+            {% if speaker.mail %}
             <div class="col-sm-2">
               <div class="icon" data-toggle="tooltip" title="Email">
-                <a href="mailto:{{ contributor.mail | encode_email }}"><i class="fas fa-envelope"></i></a>
+                <a href="mailto:{{ speaker.mail | encode_email }}"><i class="fas fa-envelope"></i></a>
               </div>
             </div>
             {% endif %}
-            {% if contributor.website %}
+            {% if speaker.website %}
             <div class="col-sm-2">
               <div class="icon" data-toggle="tooltip" title="Website">
-                <a href="{{ contributor.website }}" target="_blank"><i class="fas fa-globe"></i></a>
+                <a href="{{ speaker.website }}" target="_blank"><i class="fas fa-globe"></i></a>
               </div>
             </div>
             {% endif %}
-            {% if contributor.twitter %}
+            {% if speaker.twitter %}
             <div class="col-sm-2">
               <div class="icon" data-toggle="tooltip" title="Twitter">
-                <a href="{{ contributor.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="{{ speaker.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
               </div>
             </div>
             {% endif %}
-            {% if contributor.linkedin %}
+            {% if speaker.linkedin %}
             <div class="col-sm-2">
               <div class="icon" data-toggle="tooltip" title="LinkedIn">
-                <a href="{{ contributor.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="{{ speaker.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
             {% endif %}
-            {% if contributor.googlescholar %}
+            {% if speaker.googlescholar %}
             <div class="col-sm-2">
               <div class="icon" data-toggle="tooltip" title="Google Scholar">
-                <a href="{{ contributor.googlescholar }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                <a href="{{ speaker.googlescholar }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
               </div>
             </div>
             {% endif %}
-            {% if contributor.github %}
+            {% if speaker.github %}
             <div class="col-sm-2">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ contributor.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                <a href="{{ speaker.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
-              {% if contributor.github_stars %}
+              {% if speaker.github_stars %}
               <span class="stars" data-toggle="tooltip" title="GitHub Stars">
                 <i class="fas fa-star"></i>
-                <span id="{{ contributor.github_stars }}-stars"></span>
+                <span id="{{ speaker.github_stars }}-stars"></span>
               </span>
               {% endif %}
             </div>

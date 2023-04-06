@@ -91,6 +91,9 @@ collections:
   contributors:
     output: true
     permalink: /contributors/:path/
+  speakers:
+    output: true
+    permalink: /speakers/:path/
   coreprojects:
     output: true
     permalink: /coreprojects/:path/

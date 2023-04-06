@@ -1,7 +1,7 @@
 ---
 layout: contributor
-name: Mihaela van der Schasr
-img: /assets/img/mihaela-2023
+name: Mihaela van der Schaar
+img: /assets/img/mihaela-2023.png
 affiliation: University of Cambridge
 minibio: John Humphrey Plummer Professor of Machine Learning, Artificial Intelligence and Medicine at the University of Cambridge and a Fellow at The Alan Turing Institute
 mail: 

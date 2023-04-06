@@ -15,6 +15,84 @@ social: false  # includes social icons at the bottom of the page
 
 {% include visual.html %}
 
+# Speakers
+<div class="projects grid">
+
+  {% assign sorted_contributors = site.speakers | sample:100 %}
+  {% for contributor in sorted_contributors %}
+  <div class="grid-item">
+    {% if contributor.redirect %}
+    <a href="{{ contributor.redirect }}" target="_blank">
+    {% else %}
+    <a href="{{ contributor.url | relative_url }}">
+    {% endif %}
+      <div class="card hoverable">
+        {% if contributor.img %}
+        <img src="{{ contributor.img | relative_url }}" alt="contributor thumbnail">
+        {% endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ contributor.name }}</h2>
+          <p class="card-title">{{ contributor.affiliation }}</p>
+          <p class="card-text">{{ contributor.minibio }}</p>
+          <br/>
+          <div class="row ml-1 mr-1 p-0">
+            {% if contributor.mail %}
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Email">
+                <a href="mailto:{{ contributor.mail | encode_email }}"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+            {% endif %}
+            {% if contributor.website %}
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Website">
+                <a href="{{ contributor.website }}" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+            {% endif %}
+            {% if contributor.twitter %}
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Twitter">
+                <a href="{{ contributor.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            {% endif %}
+            {% if contributor.linkedin %}
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="LinkedIn">
+                <a href="{{ contributor.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+            {% endif %}
+            {% if contributor.googlescholar %}
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Google Scholar">
+                <a href="{{ contributor.googlescholar }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+              </div>
+            </div>
+            {% endif %}
+            {% if contributor.github %}
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ contributor.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+              {% if contributor.github_stars %}
+              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                <i class="fas fa-star"></i>
+                <span id="{{ contributor.github_stars }}-stars"></span>
+              </span>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+
+</div>
+
 This is the third edition of highly successful workshops focused on data-centric AI, following the success of the Data-Centric AI workshop at NeurIPS 2021 and DataPerf workshop at ICML 2022. Data, and operations over data (e.g., cleaning, debugging, curation) have been continually fueling the success of machine learning for decades [1]. While historically the ML community has focused primarily on model development, recently the importance of data quality has attracted intensive interest from the community [2, 3], including the creation of the NeurIPS dataset and benchmark track, several data-centric AI benchmarks (e.g., DataPerf [4]), and the flourishing of data consortiums such as LAION [5], the community’s attention has been directed to the quality of data used for ML training and evaluation [2, 6]. The goal of this workshop is to facilitate these important topics in what we call Data-centric Machine Learning Research, which includes not only datasets and benchmarks, but tooling and governance [7, 8, 9], as well as fundamental research on topics such as data quality and data acquisition for dataset creation and optimization [10, 6]. Our ultimate goal is to engage the vibrant interdisciplinary community of researchers, practitioners and engineers that tackle practical data problems related to the following list (not exclusive) of topics:
 * Benchmarking data collection, data generation, data labeling, data augmentation processes, generalizability of datasets, feature representations, text and image generation models
 * Datasets for machine learning research, AI, and AGI

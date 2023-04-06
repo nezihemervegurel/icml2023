@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Peter Mattson
-img: /assets/img/Peter.jpeg
+img: /assets/img/Peter.jpg
 affiliation: Google
 minibio: Senior staff engineer at Google
 mail: 

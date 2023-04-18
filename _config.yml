@@ -6,7 +6,7 @@ title: DMLR # the website title (if blank, full name will be used instead)
 first_name: DMLR
 middle_name:
 last_name: "@ICML'23"
-email: contact@dmlr.org
+email: # contact@dmlr.org
 description: Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023 # the ">" symbol means to ignore newlines until "footer_text:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -43,6 +43,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
+discord_id: https://discord.gg/FswYXMv4j9
 github_username: datacentric-machine-learning-research # your GitHub user name
 twitter_username: dmlr # your Twitter handle
 linkedin_username: # your LinkedIn user name
